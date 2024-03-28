@@ -1,0 +1,62 @@
+{
+	"tools" : [ 
+	  {
+		  "Simulator" : "Synopsys VCS",
+		  "Simulator_CMD" : "vcs",
+		  "Simulator_Flags" : "-sverilog -Mupdate -full64 -RPP -debug_acess+all",
+		  "vcs_path" : "./work/tools/synopsys/vcs/S-2021.09-SP2/bin/vcs",
+		  "compile_opts" :"", 
+		  "run_opts" : 
+		              { 
+										"UVM" : 
+										         { 
+															 "flag" : "-ntb_opts uvm-1.2", 
+															 "test_opts" : "+UVM_TESTNAME",
+															 "trace_opts" : "+UVM_OBJECTION_TRACE",
+															 "log_opts" : "-l",
+															 "run_time_opts" : "-RI",
+															 "dump_enable" : "+define+DUMP_ENABLE"
+														 },
+										"OVM" :
+										         { 
+															 "test_opts" : "OVM_TESTNAME",
+														   "log_opts" : "-l"
+														 }
+									}
+		},
+		{
+		  "Simulator" : "Mentor Questa",
+		  "Simulator_CMD" : "qrun",
+		  "icarus_path" : " ",
+	   	"compile_opts" : "-autoorder -batch -vcom.options -end -mfcu -vsim options -voptargs=+acc=npr",
+		  "run_opts" :
+		              {
+		                "UVM" : 
+										         { 
+															 "flag" : "-ntb_opts uvm-1.2", 
+															 "test_opts" : "+UVM_TESTNAME",
+															 "trace_opts" : "+UVM_OBJECTION_TRACE",
+															 "log_opts" : "-l",
+															 "run_time_opts" : "-RI",
+															 "dump_enable" : "+define+DUMP_ENABLE"
+														 },
+										"OVM" :
+										         { 
+															 "test_opts" : "OVM_TESTNAME",
+														   "log_opts" : "-l"
+														 }
+									}
+	  },
+	  {
+		  "Simulator" : "Icarus Verilog",
+	    "Simulator_CMD" : "vsim",
+	    "compile_opts" : "",
+	    "run_opts" : ""
+	  }
+	]
+}
+
+
+		             
+
+		

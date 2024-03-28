@@ -1,0 +1,13 @@
+{
+	"selected_tool" :"Synopsys VCS",
+	"tools": [
+		{
+			"name" : "Synopsys VCS",
+		  "Simulator_CMD" : "vcs"
+	  },
+	  {
+		  "name" : "Mentor Questa",
+		  "Simulator_CMD": "qrun"
+	  }
+	]
+}

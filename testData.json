@@ -1,0 +1,46 @@
+[
+    {
+        "target" : "gen_exe_apb_write_verify_test",
+        "test_ID" : "apb_write_verify_test",
+        "log_file" : "log/apb_write_verify_test.log "
+    },
+    {
+        "target" : "gen_exe_apb_base_test",
+        "test_ID" : "apb_base_test",
+        "log_file" : "log/apb_base_test.log "
+    },
+    {
+        "target" : "gen_exe_apb_write_verify_error_test",
+        "test_ID" : "apb_write_verify_error_test",
+        "log_file" : "log/apb_write_verify_error_test.log "
+    },
+    {
+        "target" : "gen_exe_apb_random_read_write_override_test",
+        "test_ID" : "apb_random_read_write_override_test",
+        "log_file" : "log/apb_random_read_write_override_test.log "
+    },
+    {
+        "target" : "module_dirwr_vfile",
+        "test_name" : "check_direction",
+        "log_sile" : ""
+    },
+    {
+        "target" : "DDR3",
+        "test_name" : "check_modules",
+        "log_file" : "modules",
+        "coverage" : "no"
+    },
+    {
+        "target" : "DDR4",
+        "test_name" : "check_modules",
+        "log_file" : "modules",
+        "coverage" : "no"
+    },
+    {
+        "target" : "DDR5",
+        "test_name" : "check_modules",
+        "log_file" : "modules",
+        "coverage" : "no"
+
+    } 
+]
