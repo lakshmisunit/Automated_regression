@@ -9,7 +9,7 @@ class Target_identifier:
         self.JSON_targets = self.target_invoke.targets
         self.check = 0;
         if(self.JSON_targets == None):
-            print(f"No targets are inovked from {sys.argv[1]}"
+            print(f"No targets are inovked from {sys.argv[1]}")
             self.check = 1;
             sys.exit(1)
         else:
@@ -23,10 +23,10 @@ class Target_identifier:
         return target_list
         
             
-T_identifier = Target_identifier()
-identified_targets = T_identifier.targets
-if identified_targets != None:
-    print(identified_targets)
-else:
-    print(identified_targets)
+#T_identifier = Target_identifier()
+#identified_targets = T_identifier.targets
+#if identified_targets != None:
+#    print(identified_targets)
+#else:
+#    print(identified_targets)
 

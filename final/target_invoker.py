@@ -14,10 +14,10 @@ class JSON_target_invoker:
         else:
             sys.exit(1)
 
-TI = JSON_target_invoker()
-target_list = TI.targets
-if target_list != None:
-    print(target_list)
-else:
-    print(f"No targets are invoked from the {sys.argv[1]} due to errors")
+#TI = JSON_target_invoker()
+#target_list = TI.targets
+#if target_list != None:
+#    print(target_list)
+#else:
+#    print(f"No targets are invoked from the {sys.argv[1]} due to errors")
     
