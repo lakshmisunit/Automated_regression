@@ -1032,3 +1032,24 @@
 2024-04-04 17:36:19 - testData.json is successfully checked
 2024-04-04 17:36:19 - Makefile exists in the given path
 2024-04-04 17:36:19 - Makefile is successfully checked
+2024-04-04 17:42:24: The selected simulator is: Synopsys VCS
+2024-04-04 17:42:24: The path for the Synopsys VCS is found.
+
+2024-04-04 17:42:24 - testData.json exists in the given path
+2024-04-04 17:42:24 - testData.json is successfully checked
+2024-04-04 17:42:24 - Makefile exists in the given path
+2024-04-04 17:42:24 - Makefile is successfully checked
+2024-04-04 17:42:43: The selected simulator is: Synopsys VCS
+2024-04-04 17:42:43: The path for the Synopsys VCS is found.
+
+2024-04-04 17:42:43 - testData.json exists in the given path
+2024-04-04 17:42:43 - testData.json is successfully checked
+2024-04-04 17:42:43 - Makefile exists in the given path
+2024-04-04 17:42:43 - Makefile is successfully checked
+2024-04-04 17:43:18: The selected simulator is: Synopsys VCS
+2024-04-04 17:43:18: The path for the Synopsys VCS is found.
+
+2024-04-04 17:43:18 - testData.json exists in the given path
+2024-04-04 17:43:18 - testData.json is successfully checked
+2024-04-04 17:43:18 - Makefile exists in the given path
+2024-04-04 17:43:18 - Makefile is successfully checked

@@ -3,7 +3,7 @@ export ROOT := $(CURDIR)
 WORK_DIR := $(ROOT)/WORK_DIR
 
 TOOL_NAME = 
-SIM_CMD := $(shell jq -r '.tools[] | select(.Simulator == "$(TOOL_NAME)") | .Simulator_CMD' settings.json)
+Simulator_CMD := $(shell jq -r '.tools[] | select(.Simulator == "$(TOOL_NAME)") | .Simulator_CMD' settings.json)
 SIM_PATH = $(shell which ${SIM_CMD})
 
 
@@ -67,7 +67,7 @@ all : gen_exe_apb_write_verify_error_test gen_exe_apb_write_verify_test gen_exe_
 
 gen_exe_apb_write_verify_error_test:
 	mkdir -p $(LOG_DIR) && \
-	${simulator} ${vcs_compile_opts} $(compile_files) -o gen_exe_apb_write_verify_error_test
+	${Simulator_CMD} ${compile_opts} $(compile_files) -o {output_file}
 
 gen_exe_apb_write_verify_test:
 	${simulator} ${vcs_compile_opts} $(compile_files) -o gen_exe_apb_write_verify_test

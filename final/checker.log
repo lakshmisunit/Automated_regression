@@ -1,2 +1,4 @@
 2024-04-04 11:07:56 - testData.json is successfully checked
 2024-04-04 11:11:16 - testData.json is successfully checked
+2024-04-04 17:43:18 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
