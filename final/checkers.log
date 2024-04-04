@@ -1,0 +1,1006 @@
+2024-04-04 10:53:08: The selected simulator is: Synopsys VCS
+2024-04-04 10:53:08: The path for the Synopsys VCS is found.
+
+2024-04-04 10:53:51: The selected simulator is: Mentor Questa
+2024-04-04 10:53:51: The path for Mentor Questa is not present. Please select another tool
+
+2024-04-04 10:54:13: The selected simulator is: Mentor Questa
+2024-04-04 10:54:13: The path for Mentor Questa is not present. Please select another tool
+
+2024-04-04 10:54:17: The selected simulator is: Icarus Verilog
+2024-04-04 10:54:17: The path for Icarus Verilog is not present. Please select another tool
+
+2024-04-04 10:54:18: The selected simulator is: Synopsys VCS
+2024-04-04 10:54:18: The path for the Synopsys VCS is found.
+
+2024-04-04 10:58:29: The selected simulator is: Mentor Questa
+2024-04-04 10:58:29: The path for Mentor Questa is not present. Please select another tool
+
+2024-04-04 10:58:31: The selected simulator is: Synopsys VCS
+2024-04-04 10:58:31: The path for the Synopsys VCS is found.
+
+2024-04-04 11:02:29: The selected simulator is: Mentor Questa
+2024-04-04 11:02:29: The path for Mentor Questa is not present. Please select another tool
+
+2024-04-04 11:02:31: The selected simulator is: Synopsys VCS
+2024-04-04 11:02:31: The path for the Synopsys VCS is found.
+
+2024-04-04 11:08:12 - Error: Expecting value: line 3 column 20 (char 27)
+2024-04-04 11:10:53 - Error: Expecting value: line 3 column 20 (char 27)
+2024-04-04 11:12:33 - testData.json is successfully checked
+2024-04-04 11:18:06 - testData.json is successfully checked
+2024-04-04 11:18:20 - Error: Expecting ':' delimiter: line 4 column 20 (char 79)
+2024-04-04 11:18:31 - testData.json is successfully checked
+2024-04-04 11:58:15 - makefile not found
+2024-04-04 12:00:12 - Makefile exists in the given path
+2024-04-04 12:00:26 - settings.json exists in the given path
+2024-04-04 12:00:35 - testData.json exists in the given path
+2024-04-04 12:02:52 - testData.json exists in the given path
+2024-04-04 12:03:34 - testData.json exists in the given path
+2024-04-04 12:08:03 - ID: 1 - Missing separator on line 52
+2024-04-04 12:10:16 - ID: 1 - Missing separator on line 52
+2024-04-04 12:10:16 - ID: 1 - Circular dependency found: vcs -> r_vcs -> vcs, at line 49
+2024-04-04 12:10:16 - ID: 1 - Circular dependency found: r_vcs -> vcs -> r_vcs, at line 48
+2024-04-04 12:10:35 - ID: 1 - Missing separator on line 52
+2024-04-04 12:10:35 - ID: 1 - Circular dependency found: vcs -> r_vcs -> vcs, at line 49
+2024-04-04 12:10:35 - ID: 1 - Circular dependency found: r_vcs -> vcs -> r_vcs, at line 48
+2024-04-04 12:10:55 - Missing separator on line 52
+2024-04-04 12:10:55 - Circular dependency found: vcs -> r_vcs -> vcs, at line 49
+2024-04-04 12:10:55 - Circular dependency found: r_vcs -> vcs -> r_vcs, at line 48
+2024-04-04 12:19:54 - Circular dependency found: vcs -> r_vcs -> vcs, at line 49
+2024-04-04 12:19:54 - Circular dependency found: r_vcs -> vcs -> r_vcs, at line 48
+2024-04-04 12:22:41 - Circular dependency found: vcs -> r_vcs -> vcs, at line 49
+2024-04-04 12:22:41 - Circular dependency found: r_vcs -> vcs -> r_vcs, at line 48
+2024-04-04 12:25:56 - Circular dependency found: vcs -> r_vcs -> vcs, at line 49
+2024-04-04 12:25:56 - Circular dependency found: r_vcs -> vcs -> r_vcs, at line 48
+2024-04-04 12:26:07 - Missing separator on line 42
+2024-04-04 12:26:07 - Circular dependency found: vcs -> r_vcs -> vcs, at line 49
+2024-04-04 12:26:07 - Circular dependency found: r_vcs -> vcs -> r_vcs, at line 48
+2024-04-04 12:26:23 - Missing separator on line 72
+2024-04-04 12:26:23 - Circular dependency found: vcs -> r_vcs -> vcs, at line 49
+2024-04-04 12:26:23 - Circular dependency found: r_vcs -> vcs -> r_vcs, at line 48
+2024-04-04 12:27:27 - testData.json is successfully checked
+2024-04-04 12:30:11 - testData.json is successfully checked
+2024-04-04 12:30:29 - Circular dependency found: vcs -> r_vcs -> vcs, at line 49
+2024-04-04 12:30:29 - Circular dependency found: r_vcs -> vcs -> r_vcs, at line 48
+2024-04-04 12:36:11 - ID: 1 - Circular dependency found: vcs -> r_vcs -> vcs, at line 49
+2024-04-04 12:36:56 - ID: 1 - Missing separator on line 45
+2024-04-04 12:37:34 - ID: 1 - Missing separator on line 45
+2024-04-04 12:37:45 - ID: 1 - Missing separator on line 45
+2024-04-04 12:38:11 - ID: 1 - Circular dependency found: vcs -> r_vcs -> vcs, at line 49
+2024-04-04 12:43:39 - ID: 1 - Circular dependency found: vcs -> r_vcs -> vcs, at line 49
+2024-04-04 12:44:38 - ID: 1 - Circular dependency found: vcs -> r_vcs -> vcs, at line 49
+2024-04-04 12:45:00 - ID: 1 - Circular dependency found: vcs -> r_vcs -> vcs, at line 49
+2024-04-04 12:45:37 - ID: 1 - Circular dependency found: vcs -> r_vcs -> vcs, at line 49
+2024-04-04 12:46:14 - ID: 1 - Circular dependency found: vcs -> r_vcs -> vcs, at line 49
+2024-04-04 12:46:19 - ID: 1 - Circular dependency found: vcs -> r_vcs -> vcs, at line 49
+2024-04-04 12:55:50: The selected simulator is: Mentor Questa
+2024-04-04 12:55:50: The path for Mentor Questa is not present. Please select another tool
+
+2024-04-04 12:55:51: The selected simulator is: Synopsys VCS
+2024-04-04 12:55:51: The path for the Synopsys VCS is found.
+
+2024-04-04 12:58:06: The selected simulator is: Icarus Verilog
+2024-04-04 12:58:06: The path for Icarus Verilog is not present. Please select another tool
+
+2024-04-04 12:58:07: The selected simulator is: Synopsys VCS
+2024-04-04 12:58:07: The path for the Synopsys VCS is found.
+
+2024-04-04 13:00:44: The selected simulator is: Icarus Verilog
+2024-04-04 13:00:44: The path for Icarus Verilog is not present. Please select another tool
+
+2024-04-04 13:00:45: The selected simulator is: Synopsys VCS
+2024-04-04 13:00:45: The path for the Synopsys VCS is found.
+
+2024-04-04 13:00:45 - testData.json exists in the given path
+2024-04-04 13:01:32: The selected simulator is: Icarus Verilog
+2024-04-04 13:01:32: The path for Icarus Verilog is not present. Please select another tool
+
+2024-04-04 13:01:33: The selected simulator is: Mentor Questa
+2024-04-04 13:01:33: The path for Mentor Questa is not present. Please select another tool
+
+2024-04-04 13:01:34: The selected simulator is: Synopsys VCS
+2024-04-04 13:01:34: The path for the Synopsys VCS is found.
+
+2024-04-04 13:01:34 - testData.json exists in the given path
+2024-04-04 13:05:10 - testData.json exists in the given path
+2024-04-04 13:05:43 - testData.json exists in the given path
+2024-04-04 13:05:45: The selected simulator is: Mentor Questa
+2024-04-04 13:05:45: The path for Mentor Questa is not present. Please select another tool
+
+2024-04-04 13:05:46: The selected simulator is: Synopsys VCS
+2024-04-04 13:05:46: The path for the Synopsys VCS is found.
+
+2024-04-04 13:05:46 - sys.argv[1] not found
+2024-04-04 13:05:46 - sys.srgv[2] not found
+2024-04-04 13:06:09 - testData.json exists in the given path
+2024-04-04 13:06:10: The selected simulator is: Mentor Questa
+2024-04-04 13:06:10: The path for Mentor Questa is not present. Please select another tool
+
+2024-04-04 13:06:11: The selected simulator is: Synopsys VCS
+2024-04-04 13:06:11: The path for the Synopsys VCS is found.
+
+2024-04-04 13:06:24 - testData.json exists in the given path
+2024-04-04 13:06:26: The selected simulator is: Icarus Verilog
+2024-04-04 13:06:26: The path for Icarus Verilog is not present. Please select another tool
+
+2024-04-04 13:06:26: The selected simulator is: Mentor Questa
+2024-04-04 13:06:26: The path for Mentor Questa is not present. Please select another tool
+
+2024-04-04 13:06:27: The selected simulator is: Synopsys VCS
+2024-04-04 13:06:27: The path for the Synopsys VCS is found.
+
+2024-04-04 13:06:27 - testData.json exists in the given path
+2024-04-04 13:06:27 - Makefile exists in the given path
+2024-04-04 13:07:05 - testData.json exists in the given path
+2024-04-04 13:07:07: The selected simulator is: Icarus Verilog
+2024-04-04 13:07:07: The path for Icarus Verilog is not present. Please select another tool
+
+2024-04-04 13:07:08: The selected simulator is: Mentor Questa
+2024-04-04 13:07:08: The path for Mentor Questa is not present. Please select another tool
+
+2024-04-04 13:07:09: The selected simulator is: Synopsys VCS
+2024-04-04 13:07:09: The path for the Synopsys VCS is found.
+
+2024-04-04 13:07:09 - testData.json exists in the given path
+2024-04-04 13:07:09 - Makefile exists in the given path
+2024-04-04 13:07:23 - testData.json exists in the given path
+2024-04-04 13:07:25: The selected simulator is: Synopsys VCS
+2024-04-04 13:07:25: The path for the Synopsys VCS is found.
+
+2024-04-04 13:07:25 - testData.json exists in the given path
+2024-04-04 13:07:36 - testData.json exists in the given path
+2024-04-04 13:07:38: The selected simulator is: Synopsys VCS
+2024-04-04 13:07:38: The path for the Synopsys VCS is found.
+
+2024-04-04 13:07:38 - testData.json exists in the given path
+2024-04-04 13:07:45 - testData.json exists in the given path
+2024-04-04 13:07:46: The selected simulator is: Synopsys VCS
+2024-04-04 13:07:46: The path for the Synopsys VCS is found.
+
+2024-04-04 13:07:46 - testData.json exists in the given path
+2024-04-04 13:07:46 - Makefile exists in the given path
+2024-04-04 13:17:35 - testData.json exists in the given path
+2024-04-04 13:17:37: The selected simulator is: Icarus Verilog
+2024-04-04 13:17:38: The path for Icarus Verilog is not present. Please select another tool
+
+2024-04-04 13:17:38: The selected simulator is: Mentor Questa
+2024-04-04 13:17:38: The path for Mentor Questa is not present. Please select another tool
+
+2024-04-04 13:17:39: The selected simulator is: Synopsys VCS
+2024-04-04 13:17:39: The path for the Synopsys VCS is found.
+
+2024-04-04 13:17:39 - testData.json exists in the given path
+2024-04-04 13:17:51 - testData.json exists in the given path
+2024-04-04 13:17:53: The selected simulator is: Synopsys VCS
+2024-04-04 13:17:53: The path for the Synopsys VCS is found.
+
+2024-04-04 13:17:53 - testData.json exists in the given path
+2024-04-04 13:17:53 - Makefile exists in the given path
+2024-04-04 13:18:29 - testData.json exists in the given path
+2024-04-04 13:18:31: The selected simulator is: Synopsys VCS
+2024-04-04 13:18:31: The path for the Synopsys VCS is found.
+
+2024-04-04 13:18:31 - testData.json exists in the given path
+2024-04-04 13:18:31 - Makefile exists in the given path
+2024-04-04 13:20:59 - testData.json exists in the given path
+2024-04-04 13:21:01: The selected simulator is: Synopsys VCS
+2024-04-04 13:21:01: The path for the Synopsys VCS is found.
+
+2024-04-04 13:21:01 - testData.json exists in the given path
+2024-04-04 13:21:16 - Makefile exists in the given path
+2024-04-04 13:21:52 - testData.json exists in the given path
+2024-04-04 13:21:53: The selected simulator is: Synopsys VCS
+2024-04-04 13:21:53: The path for the Synopsys VCS is found.
+
+2024-04-04 13:21:53 - testData.json exists in the given path
+2024-04-04 13:29:54 - testData.jsonc not found
+2024-04-04 13:30:10 - testData.jsonc not found
+2024-04-04 13:30:31 - testData.jsonc not found
+2024-04-04 13:30:51 - testData.json exists in the given path
+2024-04-04 13:31:04 - testData.json exists in the given path
+2024-04-04 13:31:06: The selected simulator is: Synopsys VCS
+2024-04-04 13:31:06: The path for the Synopsys VCS is found.
+
+2024-04-04 13:31:06 - testData.json exists in the given path
+2024-04-04 13:31:06 - Makefile exists in the given path
+2024-04-04 13:31:42 - testData.json exists in the given path
+2024-04-04 13:33:25 - testData.json exists in the given path
+2024-04-04 13:33:36 - testData.json exists in the given path
+2024-04-04 13:33:41 - testData.json exists in the given path
+2024-04-04 13:33:43: The selected simulator is: Synopsys VCS
+2024-04-04 13:33:43: The path for the Synopsys VCS is found.
+
+2024-04-04 13:33:43 - testData.json exists in the given path
+2024-04-04 13:33:43 - Makefile exists in the given path
+2024-04-04 14:28:18 - testData.jsonc not found
+2024-04-04 14:28:20: The selected simulator is: Synopsys VCS
+2024-04-04 14:28:20: The path for the Synopsys VCS is found.
+
+2024-04-04 14:28:20 - testData.jsonc not found
+2024-04-04 14:28:20 - Makefile exists in the given path
+2024-04-04 14:28:51 - testData.jsonc not found
+2024-04-04 14:28:52: The selected simulator is: Synopsys VCS
+2024-04-04 14:28:52: The path for the Synopsys VCS is found.
+
+2024-04-04 14:28:52 - testData.jsonc not found
+2024-04-04 14:28:52 - Makefile exists in the given path
+2024-04-04 14:29:15 - testData.jsonc not found
+2024-04-04 14:29:22 - testData.json exists in the given path
+2024-04-04 14:29:24: The selected simulator is: Synopsys VCS
+2024-04-04 14:29:24: The path for the Synopsys VCS is found.
+
+2024-04-04 14:29:24 - testData.json exists in the given path
+2024-04-04 14:29:24 - Makefile exists in the given path
+2024-04-04 14:29:45 - testData.json exists in the given path
+2024-04-04 14:29:47: The selected simulator is: Synopsys VCS
+2024-04-04 14:29:47: The path for the Synopsys VCS is found.
+
+2024-04-04 14:29:47 - testData.json exists in the given path
+2024-04-04 14:29:47 - Makefile exists in the given path
+2024-04-04 14:31:11 - testData.json exists in the given path
+2024-04-04 14:31:13: The selected simulator is: Synopsys VCS
+2024-04-04 14:31:13: The path for the Synopsys VCS is found.
+
+2024-04-04 14:31:13 - testData.json exists in the given path
+2024-04-04 14:31:13 - Makefile exists in the given path
+2024-04-04 14:32:22 - testData.json exists in the given path
+2024-04-04 14:32:23: The selected simulator is: Synopsys VCS
+2024-04-04 14:32:23: The path for the Synopsys VCS is found.
+
+2024-04-04 14:32:23 - testData.json exists in the given path
+2024-04-04 14:32:23 - Makefile exists in the given path
+2024-04-04 14:32:23 - testData.json is successfully checked
+2024-04-04 14:32:35 - testData.json exists in the given path
+2024-04-04 14:32:37: The selected simulator is: Synopsys VCS
+2024-04-04 14:32:37: The path for the Synopsys VCS is found.
+
+2024-04-04 14:32:37 - testData.json exists in the given path
+2024-04-04 14:32:37 - Makefile exists in the given path
+2024-04-04 14:32:37 - testData.json is successfully checked
+2024-04-04 14:32:37 - testData.json is successfully checked
+2024-04-04 14:33:17 - testData.json exists in the given path
+2024-04-04 14:33:18: The selected simulator is: Synopsys VCS
+2024-04-04 14:33:18: The path for the Synopsys VCS is found.
+
+2024-04-04 14:33:18 - testData.json exists in the given path
+2024-04-04 14:33:18 - Makefile exists in the given path
+2024-04-04 14:33:18 - testData.json is successfully checked
+2024-04-04 14:33:18 - testData.json is successfully checked
+2024-04-04 14:34:57 - testData.json exists in the given path
+2024-04-04 14:34:58: The selected simulator is: Synopsys VCS
+2024-04-04 14:34:58: The path for the Synopsys VCS is found.
+
+2024-04-04 14:34:58 - testData.json exists in the given path
+2024-04-04 14:34:58 - Makefile exists in the given path
+2024-04-04 14:34:58 - testData.json is successfully checked
+2024-04-04 14:34:58 - testData.json is successfully checked
+2024-04-04 14:35:17 - testData.json exists in the given path
+2024-04-04 14:35:19: The selected simulator is: Synopsys VCS
+2024-04-04 14:35:19: The path for the Synopsys VCS is found.
+
+2024-04-04 14:35:19 - testData.json exists in the given path
+2024-04-04 14:35:19 - Makefile exists in the given path
+2024-04-04 14:35:19 - testData.json is successfully checked
+2024-04-04 14:37:52 - testData.json exists in the given path
+2024-04-04 14:37:53: The selected simulator is: Synopsys VCS
+2024-04-04 14:37:53: The path for the Synopsys VCS is found.
+
+2024-04-04 14:37:53 - testData.json exists in the given path
+2024-04-04 14:37:53 - Makefile exists in the given path
+2024-04-04 14:37:53 - testData.json is successfully checked
+2024-04-04 14:38:02 - testData.json exists in the given path
+2024-04-04 14:38:03: The selected simulator is: Synopsys VCS
+2024-04-04 14:38:03: The path for the Synopsys VCS is found.
+
+2024-04-04 14:38:03 - testData.json exists in the given path
+2024-04-04 14:38:03 - Makefile exists in the given path
+2024-04-04 14:38:03 - testData.json is successfully checked
+2024-04-04 14:38:46 - testData.json exists in the given path
+2024-04-04 14:38:48: The selected simulator is: Synopsys VCS
+2024-04-04 14:38:48: The path for the Synopsys VCS is found.
+
+2024-04-04 14:38:48 - testData.json exists in the given path
+2024-04-04 14:38:48 - Makefile exists in the given path
+2024-04-04 14:38:48 - testData.json is successfully checked
+2024-04-04 14:39:39 - testData.json exists in the given path
+2024-04-04 14:39:40: The selected simulator is: Synopsys VCS
+2024-04-04 14:39:40: The path for the Synopsys VCS is found.
+
+2024-04-04 14:39:40 - testData.json exists in the given path
+2024-04-04 14:39:40 - Makefile exists in the given path
+2024-04-04 14:39:40 - testData.json is successfully checked
+2024-04-04 14:42:26 - testData.json exists in the given path
+2024-04-04 14:42:28: The selected simulator is: Synopsys VCS
+2024-04-04 14:42:28: The path for the Synopsys VCS is found.
+
+2024-04-04 14:42:28 - testData.json exists in the given path
+2024-04-04 14:42:28 - Makefile exists in the given path
+2024-04-04 14:42:28 - Error: Expecting ',' delimiter: line 10 column 9 (char 260)
+2024-04-04 14:42:48 - testData.json exists in the given path
+2024-04-04 14:42:49: The selected simulator is: Synopsys VCS
+2024-04-04 14:42:49: The path for the Synopsys VCS is found.
+
+2024-04-04 14:42:49 - testData.json exists in the given path
+2024-04-04 14:42:49 - Makefile exists in the given path
+2024-04-04 14:42:49 - Error: Invalid control character at: line 10 column 45 (char 297)
+2024-04-04 14:43:05 - testData.json exists in the given path
+2024-04-04 14:43:07: The selected simulator is: Synopsys VCS
+2024-04-04 14:43:07: The path for the Synopsys VCS is found.
+
+2024-04-04 14:43:07 - testData.json exists in the given path
+2024-04-04 14:43:07 - Makefile exists in the given path
+2024-04-04 14:43:07 - testData.json is successfully checked
+2024-04-04 14:48:56 - testData.json exists in the given path
+2024-04-04 14:48:58: The selected simulator is: Synopsys VCS
+2024-04-04 14:48:58: The path for the Synopsys VCS is found.
+
+2024-04-04 14:48:58 - testData.json exists in the given path
+2024-04-04 14:48:58 - Makefile exists in the given path
+2024-04-04 14:48:58 - testData.json is successfully checked
+2024-04-04 15:06:01 - testData.json exists in the given path
+2024-04-04 15:06:02: The selected simulator is: Synopsys VCS
+2024-04-04 15:06:02: The path for the Synopsys VCS is found.
+
+2024-04-04 15:06:02 - testData.json exists in the given path
+2024-04-04 15:06:02 - Makefile exists in the given path
+2024-04-04 15:06:37 - testData.json exists in the given path
+2024-04-04 15:06:39: The selected simulator is: Synopsys VCS
+2024-04-04 15:06:39: The path for the Synopsys VCS is found.
+
+2024-04-04 15:06:39 - testData.json exists in the given path
+2024-04-04 15:06:39 - Makefile exists in the given path
+2024-04-04 15:07:20 - testData.json exists in the given path
+2024-04-04 15:07:21: The selected simulator is: Synopsys VCS
+2024-04-04 15:07:21: The path for the Synopsys VCS is found.
+
+2024-04-04 15:07:21 - testData.json exists in the given path
+2024-04-04 15:07:21 - Makefile exists in the given path
+2024-04-04 15:07:35 - testData.json exists in the given path
+2024-04-04 15:07:36: The selected simulator is: Synopsys VCS
+2024-04-04 15:07:36: The path for the Synopsys VCS is found.
+
+2024-04-04 15:07:36 - testData.json exists in the given path
+2024-04-04 15:07:36 - Makefile exists in the given path
+2024-04-04 15:07:47 - testData.json exists in the given path
+2024-04-04 15:07:49: The selected simulator is: Synopsys VCS
+2024-04-04 15:07:49: The path for the Synopsys VCS is found.
+
+2024-04-04 15:07:49 - testData.json exists in the given path
+2024-04-04 15:07:49 - Makefile exists in the given path
+2024-04-04 15:08:07 - testData.json exists in the given path
+2024-04-04 15:08:09: The selected simulator is: Synopsys VCS
+2024-04-04 15:08:09: The path for the Synopsys VCS is found.
+
+2024-04-04 15:08:09 - testData.json exists in the given path
+2024-04-04 15:08:09 - Makefile exists in the given path
+2024-04-04 15:08:29 - testData.json exists in the given path
+2024-04-04 15:08:30: The selected simulator is: Synopsys VCS
+2024-04-04 15:08:30: The path for the Synopsys VCS is found.
+
+2024-04-04 15:08:30 - testData.json exists in the given path
+2024-04-04 15:08:30 - Makefile exists in the given path
+2024-04-04 15:09:22 - testData.json exists in the given path
+2024-04-04 15:09:23: The selected simulator is: Synopsys VCS
+2024-04-04 15:09:23: The path for the Synopsys VCS is found.
+
+2024-04-04 15:09:23 - testData.json exists in the given path
+2024-04-04 15:09:23 - Makefile exists in the given path
+2024-04-04 15:09:41 - testData.json exists in the given path
+2024-04-04 15:09:42: The selected simulator is: Synopsys VCS
+2024-04-04 15:09:42: The path for the Synopsys VCS is found.
+
+2024-04-04 15:09:42 - testData.json exists in the given path
+2024-04-04 15:09:42 - Makefile exists in the given path
+2024-04-04 15:12:46 - testData.json exists in the given path
+2024-04-04 15:12:48: The selected simulator is: Synopsys VCS
+2024-04-04 15:12:48: The path for the Synopsys VCS is found.
+
+2024-04-04 15:12:48 - testData.json exists in the given path
+2024-04-04 15:12:48 - Makefile exists in the given path
+2024-04-04 15:12:48 - testData.json is successfully checked
+2024-04-04 15:13:37 - testData.json exists in the given path
+2024-04-04 15:13:38: The selected simulator is: Synopsys VCS
+2024-04-04 15:13:39: The path for the Synopsys VCS is found.
+
+2024-04-04 15:13:39 - testData.json exists in the given path
+2024-04-04 15:13:39 - Makefile exists in the given path
+2024-04-04 15:13:39 - testData.json is successfully checked
+2024-04-04 15:15:40 - testData.json exists in the given path
+2024-04-04 15:15:41: The selected simulator is: Synopsys VCS
+2024-04-04 15:15:41: The path for the Synopsys VCS is found.
+
+2024-04-04 15:15:41 - testData.json exists in the given path
+2024-04-04 15:15:41 - Makefile exists in the given path
+2024-04-04 15:15:41 - testData.json is successfully checked
+2024-04-04 15:16:37 - testData.json exists in the given path
+2024-04-04 15:16:39: The selected simulator is: Synopsys VCS
+2024-04-04 15:16:39: The path for the Synopsys VCS is found.
+
+2024-04-04 15:16:39 - testData.json exists in the given path
+2024-04-04 15:16:39 - Makefile exists in the given path
+2024-04-04 15:16:39 - testData.json is successfully checked
+2024-04-04 15:20:21 - testData.json exists in the given path
+2024-04-04 15:20:22: The selected simulator is: Synopsys VCS
+2024-04-04 15:20:22: The path for the Synopsys VCS is found.
+
+2024-04-04 15:20:22 - testData.json exists in the given path
+2024-04-04 15:20:22 - Makefile exists in the given path
+2024-04-04 15:20:22 - testData.json is successfully checked
+2024-04-04 15:20:22 - ID: 1 - Circular dependency found: vcs -> r_vcs -> vcs, at line 49
+2024-04-04 15:20:40 - testData.json exists in the given path
+2024-04-04 15:20:42: The selected simulator is: Synopsys VCS
+2024-04-04 15:20:42: The path for the Synopsys VCS is found.
+
+2024-04-04 15:20:42 - testData.json exists in the given path
+2024-04-04 15:20:42 - Makefile exists in the given path
+2024-04-04 15:20:42 - testData.json is successfully checked
+2024-04-04 15:20:42 - ID: 1 - Circular dependency found: vcs -> r_vcs -> vcs, at line 49
+2024-04-04 15:21:13 - testData.json exists in the given path
+2024-04-04 15:21:14: The selected simulator is: Synopsys VCS
+2024-04-04 15:21:14: The path for the Synopsys VCS is found.
+
+2024-04-04 15:21:14 - testData.json exists in the given path
+2024-04-04 15:21:14 - Makefile exists in the given path
+2024-04-04 15:21:14 - testData.json is successfully checked
+2024-04-04 15:21:14 - ID: 1 - Circular dependency found: vcs -> r_vcs -> vcs, at line 49
+2024-04-04 15:21:40 - testData.json exists in the given path
+2024-04-04 15:21:41: The selected simulator is: Synopsys VCS
+2024-04-04 15:21:41: The path for the Synopsys VCS is found.
+
+2024-04-04 15:21:41 - testData.json exists in the given path
+2024-04-04 15:21:41 - Makefile exists in the given path
+2024-04-04 15:21:41 - testData.json is successfully checked
+2024-04-04 15:21:41 - ID: 1 - Circular dependency found: vcs -> r_vcs -> vcs, at line 49
+2024-04-04 15:22:04 - testData.json exists in the given path
+2024-04-04 15:22:07: The selected simulator is: Synopsys VCS
+2024-04-04 15:22:07: The path for the Synopsys VCS is found.
+
+2024-04-04 15:22:07 - testData.json exists in the given path
+2024-04-04 15:22:07 - Makefile exists in the given path
+2024-04-04 15:22:07 - testData.json is successfully checked
+2024-04-04 15:27:33 - testData.json exists in the given path
+2024-04-04 15:27:34: The selected simulator is: Synopsys VCS
+2024-04-04 15:27:34: The path for the Synopsys VCS is found.
+
+2024-04-04 15:27:34 - testData.json exists in the given path
+2024-04-04 15:27:34 - Makefile exists in the given path
+2024-04-04 15:27:34 - testData.json is successfully checked
+2024-04-04 15:30:42 - testData.json exists in the given path
+2024-04-04 15:30:59 - ID: 1 - Makefile is successfully checked
+2024-04-04 15:31:36 - testData.json exists in the given path
+2024-04-04 15:31:37: The selected simulator is: Synopsys VCS
+2024-04-04 15:31:37: The path for the Synopsys VCS is found.
+
+2024-04-04 15:31:37 - testData.json exists in the given path
+2024-04-04 15:31:37 - Makefile exists in the given path
+2024-04-04 15:31:37 - testData.json is successfully checked
+2024-04-04 15:32:03 - testData.json exists in the given path
+2024-04-04 15:32:05: The selected simulator is: Synopsys VCS
+2024-04-04 15:32:05: The path for the Synopsys VCS is found.
+
+2024-04-04 15:32:05 - testData.json exists in the given path
+2024-04-04 15:32:05 - Makefile exists in the given path
+2024-04-04 15:32:05 - testData.json is successfully checked
+2024-04-04 15:32:05 - Makefile is successfully checked
+2024-04-04 15:32:59 - testData.json exists in the given path
+2024-04-04 15:33:00: The selected simulator is: Synopsys VCS
+2024-04-04 15:33:00: The path for the Synopsys VCS is found.
+
+2024-04-04 15:33:00 - testData.json exists in the given path
+2024-04-04 15:33:00 - Makefile exists in the given path
+2024-04-04 15:33:00 - testData.json is successfully checked
+2024-04-04 15:33:01 - Makefile is successfully checked
+2024-04-04 15:33:22 - testData.json exists in the given path
+2024-04-04 15:33:23: The selected simulator is: Synopsys VCS
+2024-04-04 15:33:23: The path for the Synopsys VCS is found.
+
+2024-04-04 15:33:23 - testData.json exists in the given path
+2024-04-04 15:33:23 - Makefile exists in the given path
+2024-04-04 15:33:23 - testData.json is successfully checked
+2024-04-04 15:33:23 - Makefile is successfully checked
+2024-04-04 15:34:07 - testData.json exists in the given path
+2024-04-04 15:34:10: The selected simulator is: Synopsys VCS
+2024-04-04 15:34:10: The path for the Synopsys VCS is found.
+
+2024-04-04 15:34:10 - testData.json exists in the given path
+2024-04-04 15:34:10 - Makefile exists in the given path
+2024-04-04 15:34:10 - testData.json is successfully checked
+2024-04-04 15:34:10 - Makefile is successfully checked
+2024-04-04 15:34:27 - testData.json exists in the given path
+2024-04-04 15:34:28: The selected simulator is: Mentor Questa
+2024-04-04 15:34:28: The path for Mentor Questa is not present. Please select another tool
+
+2024-04-04 15:34:29: The selected simulator is: Synopsys VCS
+2024-04-04 15:34:29: The path for the Synopsys VCS is found.
+
+2024-04-04 15:34:29 - testData.json exists in the given path
+2024-04-04 15:34:29 - Makefile exists in the given path
+2024-04-04 15:34:29 - testData.json is successfully checked
+2024-04-04 15:34:30 - Makefile is successfully checked
+2024-04-04 15:41:48 - testData.json exists in the given path
+2024-04-04 15:41:50: The selected simulator is: Synopsys VCS
+2024-04-04 15:41:50: The path for the Synopsys VCS is found.
+
+2024-04-04 15:41:50 - testData.json exists in the given path
+2024-04-04 15:41:50 - Makefile exists in the given path
+2024-04-04 15:41:50 - testData.json is successfully checked
+2024-04-04 15:41:50 - Makefile is successfully checked
+2024-04-04 15:42:32 - testData.json exists in the given path
+2024-04-04 15:42:34: The selected simulator is: Synopsys VCS
+2024-04-04 15:42:34: The path for the Synopsys VCS is found.
+
+2024-04-04 15:42:34 - testData.json exists in the given path
+2024-04-04 15:42:34 - Makefile exists in the given path
+2024-04-04 15:42:34 - testData.json is successfully checked
+2024-04-04 15:42:34 - Makefile is successfully checked
+2024-04-04 15:42:49 - testData.json exists in the given path
+2024-04-04 15:42:51: The selected simulator is: Synopsys VCS
+2024-04-04 15:42:51: The path for the Synopsys VCS is found.
+
+2024-04-04 15:42:51 - testData.json exists in the given path
+2024-04-04 15:42:51 - Makefile exists in the given path
+2024-04-04 15:42:51 - testData.json is successfully checked
+2024-04-04 15:42:51 - Makefile is successfully checked
+2024-04-04 15:43:04 - testData.json exists in the given path
+2024-04-04 15:43:07: The selected simulator is: Synopsys VCS
+2024-04-04 15:43:07: The path for the Synopsys VCS is found.
+
+2024-04-04 15:43:07 - testData.json exists in the given path
+2024-04-04 15:43:07 - Makefile exists in the given path
+2024-04-04 15:43:07 - testData.json is successfully checked
+2024-04-04 15:43:07 - Makefile is successfully checked
+2024-04-04 15:52:25 - testData.jsonc not found
+2024-04-04 15:52:26: The selected simulator is: Synopsys VCS
+2024-04-04 15:52:27: The path for the Synopsys VCS is found.
+
+2024-04-04 15:52:27 - testData.jsonc not found
+2024-04-04 15:52:27 - Makefile exists in the given path
+2024-04-04 15:52:27 - Makefile is successfully checked
+2024-04-04 15:53:26 - testData.jsn not found
+2024-04-04 15:53:45 - testData.jsn not found
+2024-04-04 15:53:55 - testData.json exists in the given path
+2024-04-04 15:54:39 - testData.json exists in the given path
+2024-04-04 15:54:41: The selected simulator is: Synopsys VCS
+2024-04-04 15:54:41: The path for the Synopsys VCS is found.
+
+2024-04-04 15:54:41 - testData.json exists in the given path
+2024-04-04 15:54:41 - Makefile exists in the given path
+2024-04-04 15:54:41 - testData.json is successfully checked
+2024-04-04 15:54:41 - Makefile is successfully checked
+2024-04-04 15:54:57 - testData.json exists in the given path
+2024-04-04 15:54:58: The selected simulator is: Synopsys VCS
+2024-04-04 15:54:58: The path for the Synopsys VCS is found.
+
+2024-04-04 15:54:58 - testData.json exists in the given path
+2024-04-04 15:54:58 - Makefile exists in the given path
+2024-04-04 15:54:58 - testData.json is successfully checked
+2024-04-04 15:54:58 - Makefile is successfully checked
+2024-04-04 15:55:11 - testData.jsn not found
+2024-04-04 15:55:12: The selected simulator is: Synopsys VCS
+2024-04-04 15:55:12: The path for the Synopsys VCS is found.
+
+2024-04-04 15:55:12 - testData.jsn not found
+2024-04-04 15:55:12 - Makefile exists in the given path
+2024-04-04 15:55:13 - Makefile is successfully checked
+2024-04-04 15:56:15 - testData.jsn not found
+2024-04-04 15:56:17: The selected simulator is: Synopsys VCS
+2024-04-04 15:56:17: The path for the Synopsys VCS is found.
+
+2024-04-04 15:56:17 - testData.jsn not found
+2024-04-04 15:56:17 - Makefile exists in the given path
+2024-04-04 15:59:36 - testData.jsonc not found
+2024-04-04 16:00:30 - testData.jsonc not found
+2024-04-04 16:00:40 - testData.jsonc not found
+2024-04-04 16:00:43: The selected simulator is: Synopsys VCS
+2024-04-04 16:00:43: The path for the Synopsys VCS is found.
+
+2024-04-04 16:00:43 - testData.jsonc not found
+2024-04-04 16:00:43 - Makefile exists in the given path
+2024-04-04 16:00:57 - testData.json exists in the given path
+2024-04-04 16:00:58: The selected simulator is: Mentor Questa
+2024-04-04 16:00:58: The path for Mentor Questa is not present. Please select another tool
+
+2024-04-04 16:01:00: The selected simulator is: Synopsys VCS
+2024-04-04 16:01:00: The path for the Synopsys VCS is found.
+
+2024-04-04 16:01:00 - testData.json exists in the given path
+2024-04-04 16:01:00 - Makefile exists in the given path
+2024-04-04 16:01:00 - testData.json is successfully checked
+2024-04-04 16:01:01 - Makefile is successfully checked
+2024-04-04 16:01:48 - testData.json exists in the given path
+2024-04-04 16:01:49: The selected simulator is: Synopsys VCS
+2024-04-04 16:01:49: The path for the Synopsys VCS is found.
+
+2024-04-04 16:01:49 - testData.json exists in the given path
+2024-04-04 16:01:49 - Makefile exists in the given path
+2024-04-04 16:01:49 - testData.json is successfully checked
+2024-04-04 16:01:50 - Makefile is successfully checked
+2024-04-04 16:02:30 - testData.json exists in the given path
+2024-04-04 16:02:32: The selected simulator is: Synopsys VCS
+2024-04-04 16:02:32: The path for the Synopsys VCS is found.
+
+2024-04-04 16:02:32 - testData.json exists in the given path
+2024-04-04 16:02:32 - Makefile exists in the given path
+2024-04-04 16:02:32 - testData.json is successfully checked
+2024-04-04 16:02:32 - Makefile is successfully checked
+2024-04-04 16:02:51 - testData.json exists in the given path
+2024-04-04 16:02:52: The selected simulator is: Synopsys VCS
+2024-04-04 16:02:52: The path for the Synopsys VCS is found.
+
+2024-04-04 16:02:52 - testData.json exists in the given path
+2024-04-04 16:02:52 - Makefile exists in the given path
+2024-04-04 16:02:52 - Error: Expecting value: line 18 column 20 (char 513)
+2024-04-04 16:02:52 - Makefile is successfully checked
+2024-04-04 16:04:16 - testData.json exists in the given path
+2024-04-04 16:04:17: The selected simulator is: Synopsys VCS
+2024-04-04 16:04:18: The path for the Synopsys VCS is found.
+
+2024-04-04 16:04:18 - testData.json exists in the given path
+2024-04-04 16:04:18 - Makefile exists in the given path
+2024-04-04 16:04:18 - Error: Expecting value: line 18 column 20 (char 513)
+2024-04-04 16:04:18 - Makefile is successfully checked
+2024-04-04 16:04:25 - testData.json exists in the given path
+2024-04-04 16:04:26: The selected simulator is: Synopsys VCS
+2024-04-04 16:04:26: The path for the Synopsys VCS is found.
+
+2024-04-04 16:04:26 - testData.json exists in the given path
+2024-04-04 16:04:26 - Makefile exists in the given path
+2024-04-04 16:04:26 - Error: Expecting value: line 18 column 20 (char 513)
+2024-04-04 16:04:26 - Makefile is successfully checked
+2024-04-04 16:15:09 - testData.json exists in the given path
+2024-04-04 16:15:59 - testData.json exists in the given path
+2024-04-04 16:16:32 - testData.json exists in the given path
+2024-04-04 16:16:34: The selected simulator is: Synopsys VCS
+2024-04-04 16:16:34: The path for the Synopsys VCS is found.
+
+2024-04-04 16:16:34 - testData.json exists in the given path
+2024-04-04 16:16:34 - Makefile exists in the given path
+2024-04-04 16:16:34 - Error: Expecting value: line 18 column 20 (char 513)
+2024-04-04 16:16:34 - Makefile is successfully checked
+2024-04-04 16:16:46 - testData.json exists in the given path
+2024-04-04 16:16:47: The selected simulator is: Synopsys VCS
+2024-04-04 16:16:47: The path for the Synopsys VCS is found.
+
+2024-04-04 16:16:47 - testData.json exists in the given path
+2024-04-04 16:16:47 - Makefile exists in the given path
+2024-04-04 16:16:47 - Error: Expecting value: line 18 column 20 (char 513)
+2024-04-04 16:16:47 - Makefile is successfully checked
+2024-04-04 16:21:45 - testData.json exists in the given path
+2024-04-04 16:21:54: The selected simulator is: Synopsys VCS
+2024-04-04 16:21:54: The path for the Synopsys VCS is found.
+
+2024-04-04 16:21:54 - testData.json exists in the given path
+2024-04-04 16:21:54 - Makefile exists in the given path
+2024-04-04 16:21:54 - Error: Expecting value: line 18 column 20 (char 513)
+2024-04-04 16:21:54 - Makefile is successfully checked
+2024-04-04 16:22:05 - testData.json exists in the given path
+2024-04-04 16:22:46: The selected simulator is: Mentor Questa
+2024-04-04 16:22:46: The path for Mentor Questa is not present. Please select another tool
+
+2024-04-04 16:22:48: The selected simulator is: Synopsys VCS
+2024-04-04 16:22:48: The path for the Synopsys VCS is found.
+
+2024-04-04 16:22:48 - testData.json exists in the given path
+2024-04-04 16:22:48 - Makefile exists in the given path
+2024-04-04 16:22:48 - Error: Expecting value: line 18 column 20 (char 513)
+2024-04-04 16:22:48 - Makefile is successfully checked
+2024-04-04 16:23:21 - testData.json exists in the given path
+2024-04-04 16:27:00 - testData.json exists in the given path
+2024-04-04 16:27:51: The selected simulator is: Synopsys VCS
+2024-04-04 16:27:51: The path for the Synopsys VCS is found.
+
+2024-04-04 16:27:51 - testData.json exists in the given path
+2024-04-04 16:28:11: The selected simulator is: Synopsys VCS
+2024-04-04 16:28:11: The path for the Synopsys VCS is found.
+
+2024-04-04 16:28:11 - testData.json exists in the given path
+2024-04-04 16:28:11 - testData.json is successfully checked
+2024-04-04 16:28:11 - Makefile exists in the given path
+2024-04-04 16:28:12 - Makefile is successfully checked
+2024-04-04 16:29:50: The selected simulator is: Synopsys VCS
+2024-04-04 16:29:50: The path for the Synopsys VCS is found.
+
+2024-04-04 16:29:50 - testData.json exists in the given path
+2024-04-04 16:29:50 - testData.json is successfully checked
+2024-04-04 16:29:50 - Makefile exists in the given path
+2024-04-04 16:29:50 - Circular dependency found: vcs -> r_vcs -> vcs, at line 49
+2024-04-04 16:30:26: The selected simulator is: Synopsys VCS
+2024-04-04 16:30:26: The path for the Synopsys VCS is found.
+
+2024-04-04 16:30:26 - testData.json exists in the given path
+2024-04-04 16:30:26 - testData.json is successfully checked
+2024-04-04 16:30:26 - Makefile exists in the given path
+2024-04-04 16:30:26 - Makefile is successfully checked
+2024-04-04 16:30:58: The selected simulator is: Synopsys VCS
+2024-04-04 16:30:58: The path for the Synopsys VCS is found.
+
+2024-04-04 16:30:58 - testData.json exists in the given path
+2024-04-04 16:30:58 - testData.json is successfully checked
+2024-04-04 16:30:58 - Makefile exists in the given path
+2024-04-04 16:30:59 - Makefile is successfully checked
+2024-04-04 16:31:30: The selected simulator is: Synopsys VCS
+2024-04-04 16:31:30: The path for the Synopsys VCS is found.
+
+2024-04-04 16:31:30 - testData.json exists in the given path
+2024-04-04 16:31:30 - Error: Expecting value: line 10 column 22 (char 274)
+2024-04-04 16:31:30 - Makefile exists in the given path
+2024-04-04 16:31:30 - Makefile is successfully checked
+2024-04-04 16:31:42: The selected simulator is: Synopsys VCS
+2024-04-04 16:31:42: The path for the Synopsys VCS is found.
+
+2024-04-04 16:31:42 - testData.json exists in the given path
+2024-04-04 16:31:42 - Error: Expecting value: line 10 column 22 (char 274)
+2024-04-04 16:31:42 - Makefile exists in the given path
+2024-04-04 16:31:42 - Makefile is successfully checked
+2024-04-04 16:32:50: The selected simulator is: Synopsys VCS
+2024-04-04 16:32:50: The path for the Synopsys VCS is found.
+
+2024-04-04 16:32:50 - testData.json exists in the given path
+2024-04-04 16:32:50 - Error: Expecting value: line 10 column 22 (char 274)
+2024-04-04 16:32:50 - Makefile exists in the given path
+2024-04-04 16:32:50 - Makefile is successfully checked
+2024-04-04 16:42:38: The selected simulator is: Synopsys VCS
+2024-04-04 16:42:39: The path for the Synopsys VCS is found.
+
+2024-04-04 16:42:39 - testData.json exists in the given path
+2024-04-04 16:42:39 - testData.json is successfully checked
+2024-04-04 16:42:39 - Makefile exists in the given path
+2024-04-04 16:42:39 - Makefile is successfully checked
+2024-04-04 16:43:21: The selected simulator is: Synopsys VCS
+2024-04-04 16:43:21: The path for the Synopsys VCS is found.
+
+2024-04-04 16:43:21 - testData.json exists in the given path
+2024-04-04 16:43:21 - testData.json is successfully checked
+2024-04-04 16:43:21 - Makefile exists in the given path
+2024-04-04 16:43:22 - Makefile is successfully checked
+2024-04-04 16:56:02: The selected simulator is: Synopsys VCS
+2024-04-04 16:56:02: The path for the Synopsys VCS is found.
+
+2024-04-04 16:56:02 - testData.json exists in the given path
+2024-04-04 16:56:02 - testData.json is successfully checked
+2024-04-04 16:56:02 - Makefile exists in the given path
+2024-04-04 16:56:02 - Makefile is successfully checked
+2024-04-04 16:56:50: The selected simulator is: Synopsys VCS
+2024-04-04 16:56:50: The path for the Synopsys VCS is found.
+
+2024-04-04 16:56:50 - testData.json exists in the given path
+2024-04-04 16:56:50 - testData.json is successfully checked
+2024-04-04 16:56:50 - Makefile exists in the given path
+2024-04-04 16:56:50 - Makefile is successfully checked
+2024-04-04 16:56:55: The selected simulator is: Synopsys VCS
+2024-04-04 16:56:55: The path for the Synopsys VCS is found.
+
+2024-04-04 16:56:55 - testData.json exists in the given path
+2024-04-04 16:56:55 - testData.json is successfully checked
+2024-04-04 16:56:55 - Makefile exists in the given path
+2024-04-04 16:56:55 - Makefile is successfully checked
+2024-04-04 16:57:16: The selected simulator is: Synopsys VCS
+2024-04-04 16:57:16: The path for the Synopsys VCS is found.
+
+2024-04-04 16:57:16 - testData.json exists in the given path
+2024-04-04 16:57:16 - testData.json is successfully checked
+2024-04-04 16:57:16 - Makefile exists in the given path
+2024-04-04 16:57:16 - Makefile is successfully checked
+2024-04-04 16:57:21: The selected simulator is: Synopsys VCS
+2024-04-04 16:57:21: The path for the Synopsys VCS is found.
+
+2024-04-04 16:57:21 - testData.json exists in the given path
+2024-04-04 16:57:21 - testData.json is successfully checked
+2024-04-04 16:57:21 - Makefile exists in the given path
+2024-04-04 16:57:21 - Makefile is successfully checked
+2024-04-04 17:05:20: The selected simulator is: Synopsys VCS
+2024-04-04 17:05:20: The path for the Synopsys VCS is found.
+
+2024-04-04 17:05:20 - testData.json exists in the given path
+2024-04-04 17:05:20 - testData.json is successfully checked
+2024-04-04 17:05:20 - Makefile exists in the given path
+2024-04-04 17:05:20 - Makefile is successfully checked
+2024-04-04 17:08:19: The selected simulator is: Synopsys VCS
+2024-04-04 17:08:19: The path for the Synopsys VCS is found.
+
+2024-04-04 17:08:19 - testData.json exists in the given path
+2024-04-04 17:08:19 - testData.json is successfully checked
+2024-04-04 17:08:19 - Makefile exists in the given path
+2024-04-04 17:08:19 - Makefile is successfully checked
+2024-04-04 17:09:05: The selected simulator is: Synopsys VCS
+2024-04-04 17:09:05: The path for the Synopsys VCS is found.
+
+2024-04-04 17:09:05 - testData.json exists in the given path
+2024-04-04 17:09:05 - testData.json is successfully checked
+2024-04-04 17:09:05 - Makefile exists in the given path
+2024-04-04 17:09:05 - Makefile is successfully checked
+2024-04-04 17:09:34: The selected simulator is: Synopsys VCS
+2024-04-04 17:09:34: The path for the Synopsys VCS is found.
+
+2024-04-04 17:09:34 - testData.json exists in the given path
+2024-04-04 17:09:34 - testData.json is successfully checked
+2024-04-04 17:09:34 - Makefile exists in the given path
+2024-04-04 17:09:34 - Makefile is successfully checked
+2024-04-04 17:10:19: The selected simulator is: Synopsys VCS
+2024-04-04 17:10:19: The path for the Synopsys VCS is found.
+
+2024-04-04 17:10:19 - testData.json exists in the given path
+2024-04-04 17:10:19 - testData.json is successfully checked
+2024-04-04 17:10:19 - Makefile exists in the given path
+2024-04-04 17:10:19 - Makefile is successfully checked
+2024-04-04 17:12:22: The selected simulator is: Synopsys VCS
+2024-04-04 17:12:22: The path for the Synopsys VCS is found.
+
+2024-04-04 17:12:22 - testData.json exists in the given path
+2024-04-04 17:12:22 - testData.json is successfully checked
+2024-04-04 17:12:22 - Makefile exists in the given path
+2024-04-04 17:12:22 - Makefile is successfully checked
+2024-04-04 17:13:22: Invalid choice. Please select a valid option
+2024-04-04 17:13:31: The selected simulator is: Synopsys VCS
+2024-04-04 17:13:31: The path for the Synopsys VCS is found.
+
+2024-04-04 17:13:31 - testData.json exists in the given path
+2024-04-04 17:13:31 - testData.json is successfully checked
+2024-04-04 17:13:31 - Makefile exists in the given path
+2024-04-04 17:13:31 - Makefile is successfully checked
+2024-04-04 17:13:50: The selected simulator is: Synopsys VCS
+2024-04-04 17:13:50: The path for the Synopsys VCS is found.
+
+2024-04-04 17:13:50 - testData.json exists in the given path
+2024-04-04 17:13:50 - testData.json is successfully checked
+2024-04-04 17:13:50 - Makefile exists in the given path
+2024-04-04 17:13:50 - Makefile is successfully checked
+2024-04-04 17:14:17: The selected simulator is: Synopsys VCS
+2024-04-04 17:14:17: The path for the Synopsys VCS is found.
+
+2024-04-04 17:14:17 - testData.json exists in the given path
+2024-04-04 17:14:17 - testData.json is successfully checked
+2024-04-04 17:14:17 - Makefil1e not found
+2024-04-04 17:16:18: The selected simulator is: Mentor Questa
+2024-04-04 17:16:18: The path for Mentor Questa is not present. Please select another tool
+
+2024-04-04 17:16:29: The selected simulator is: Synopsys VCS
+2024-04-04 17:16:29: The path for the Synopsys VCS is found.
+
+2024-04-04 17:16:29 - testData.json exists in the given path
+2024-04-04 17:16:29 - testData.json is successfully checked
+2024-04-04 17:16:29 - Makefil1e not found
+2024-04-04 17:20:44: The selected simulator is: Synopsys VCS
+2024-04-04 17:20:44: The path for the Synopsys VCS is found.
+
+2024-04-04 17:20:44 - testData.json exists in the given path
+2024-04-04 17:20:44 - testData.json is successfully checked
+2024-04-04 17:20:44 - Makefile exists in the given path
+2024-04-04 17:20:45 - Makefile is successfully checked
+2024-04-04 17:23:03: The selected simulator is: Synopsys VCS
+2024-04-04 17:23:03: The path for the Synopsys VCS is found.
+
+2024-04-04 17:23:03 - testData.json exists in the given path
+2024-04-04 17:23:03 - testData.json is successfully checked
+2024-04-04 17:23:03 - Makefile exists in the given path
+2024-04-04 17:23:03 - Makefile is successfully checked
+2024-04-04 17:23:17: The selected simulator is: Synopsys VCS
+2024-04-04 17:23:17: The path for the Synopsys VCS is found.
+
+2024-04-04 17:23:17 - testData.json exists in the given path
+2024-04-04 17:23:17 - testData.json is successfully checked
+2024-04-04 17:23:17 - Makefile exists in the given path
+2024-04-04 17:23:17 - Makefile is successfully checked
+2024-04-04 17:23:24: The selected simulator is: Synopsys VCS
+2024-04-04 17:23:24: The path for the Synopsys VCS is found.
+
+2024-04-04 17:23:24 - testData.json exists in the given path
+2024-04-04 17:23:24 - testData.json is successfully checked
+2024-04-04 17:23:24 - Makefile2 not found
+2024-04-04 17:23:58: The selected simulator is: Synopsys VCS
+2024-04-04 17:23:58: The path for the Synopsys VCS is found.
+
+2024-04-04 17:23:58 - testData.json exists in the given path
+2024-04-04 17:23:58 - testData.json is successfully checked
+2024-04-04 17:23:58 - akefile not found
+2024-04-04 17:24:44: The selected simulator is: Synopsys VCS
+2024-04-04 17:24:44: The path for the Synopsys VCS is found.
+
+2024-04-04 17:24:44 - testData.jso not found
+2024-04-04 17:24:56: The selected simulator is: Synopsys VCS
+2024-04-04 17:24:56: The path for the Synopsys VCS is found.
+
+2024-04-04 17:24:56 - testData.json exists in the given path
+2024-04-04 17:24:56 - testData.json is successfully checked
+2024-04-04 17:24:56 - Makefile exists in the given path
+2024-04-04 17:24:56 - Makefile is successfully checked
+2024-04-04 17:25:01: The selected simulator is: Synopsys VCS
+2024-04-04 17:25:02: The path for the Synopsys VCS is found.
+
+2024-04-04 17:25:02 - testData.json exists in the given path
+2024-04-04 17:25:02 - testData.json is successfully checked
+2024-04-04 17:25:02 - Makefie not found
+2024-04-04 17:26:56: The selected simulator is: Synopsys VCS
+2024-04-04 17:26:56: The path for the Synopsys VCS is found.
+
+2024-04-04 17:26:56 - testData.json exists in the given path
+2024-04-04 17:26:56 - testData.json is successfully checked
+2024-04-04 17:26:56 - Makefie not found
+2024-04-04 17:27:04: The selected simulator is: Synopsys VCS
+2024-04-04 17:27:04: The path for the Synopsys VCS is found.
+
+2024-04-04 17:27:04 - testData.jsn not found
+2024-04-04 17:27:33: The selected simulator is: Synopsys VCS
+2024-04-04 17:27:33: The path for the Synopsys VCS is found.
+
+2024-04-04 17:27:33 - testData.jsonc not found
+2024-04-04 17:27:45: The selected simulator is: Synopsys VCS
+2024-04-04 17:27:45: The path for the Synopsys VCS is found.
+
+2024-04-04 17:27:45 - testData.json exists in the given path
+2024-04-04 17:27:45 - testData.json is successfully checked
+2024-04-04 17:27:45 - Makefile exists in the given path
+2024-04-04 17:27:45 - Makefile is successfully checked
+2024-04-04 17:28:14: The selected simulator is: Mentor Questa
+2024-04-04 17:28:14: The path for Mentor Questa is not present. Please select another tool
+
+2024-04-04 17:28:15: The selected simulator is: Synopsys VCS
+2024-04-04 17:28:15: The path for the Synopsys VCS is found.
+
+2024-04-04 17:28:15 - testData.json exists in the given path
+2024-04-04 17:28:15 - testData.json is successfully checked
+2024-04-04 17:28:15 - Makefile exists in the given path
+2024-04-04 17:28:15 - Makefile is successfully checked
+2024-04-04 17:28:46: The selected simulator is: Synopsys VCS
+2024-04-04 17:28:46: The path for the Synopsys VCS is found.
+
+2024-04-04 17:28:46 - testData.json exists in the given path
+2024-04-04 17:28:46 - testData.json is successfully checked
+2024-04-04 17:28:46 - Makefile exists in the given path
+2024-04-04 17:28:46 - Makefile is successfully checked
+2024-04-04 17:28:48: The selected simulator is: Mentor Questa
+2024-04-04 17:28:48: The path for Mentor Questa is not present. Please select another tool
+
+2024-04-04 17:28:49: The selected simulator is: Synopsys VCS
+2024-04-04 17:28:49: The path for the Synopsys VCS is found.
+
+2024-04-04 17:28:49 - testData.json exists in the given path
+2024-04-04 17:28:49 - testData.json is successfully checked
+2024-04-04 17:28:49 - Makefile exists in the given path
+2024-04-04 17:28:49 - Makefile is successfully checked
+2024-04-04 17:29:11: The selected simulator is: Synopsys VCS
+2024-04-04 17:29:11: The path for the Synopsys VCS is found.
+
+2024-04-04 17:29:11 - testData.json exists in the given path
+2024-04-04 17:29:11 - testData.json is successfully checked
+2024-04-04 17:29:11 - Makefile exists in the given path
+2024-04-04 17:29:11 - Makefile is successfully checked
+2024-04-04 17:29:13: The selected simulator is: Mentor Questa
+2024-04-04 17:29:13: The path for Mentor Questa is not present. Please select another tool
+
+2024-04-04 17:29:15: The selected simulator is: Synopsys VCS
+2024-04-04 17:29:15: The path for the Synopsys VCS is found.
+
+2024-04-04 17:29:15 - testData.json exists in the given path
+2024-04-04 17:29:15 - testData.json is successfully checked
+2024-04-04 17:29:15 - Makefile exists in the given path
+2024-04-04 17:29:15 - Makefile is successfully checked
+2024-04-04 17:29:19: The selected simulator is: Synopsys VCS
+2024-04-04 17:29:19: The path for the Synopsys VCS is found.
+
+2024-04-04 17:29:19 - testData.json exists in the given path
+2024-04-04 17:29:19 - testData.json is successfully checked
+2024-04-04 17:29:19 - Makefile exists in the given path
+2024-04-04 17:29:19 - Makefile is successfully checked
+2024-04-04 17:29:29: The selected simulator is: Synopsys VCS
+2024-04-04 17:29:29: The path for the Synopsys VCS is found.
+
+2024-04-04 17:29:29 - testData.json exists in the given path
+2024-04-04 17:29:29 - testData.json is successfully checked
+2024-04-04 17:29:29 - Makefile exists in the given path
+2024-04-04 17:29:29 - Makefile is successfully checked
+2024-04-04 17:29:35: The selected simulator is: Synopsys VCS
+2024-04-04 17:29:35: The path for the Synopsys VCS is found.
+
+2024-04-04 17:29:35 - testData.json exists in the given path
+2024-04-04 17:29:35 - testData.json is successfully checked
+2024-04-04 17:29:35 - Makefile exists in the given path
+2024-04-04 17:29:35 - Makefile is successfully checked
+2024-04-04 17:29:37: The selected simulator is: Synopsys VCS
+2024-04-04 17:29:37: The path for the Synopsys VCS is found.
+
+2024-04-04 17:29:37 - testData.json exists in the given path
+2024-04-04 17:29:37 - testData.json is successfully checked
+2024-04-04 17:29:37 - Makefile exists in the given path
+2024-04-04 17:29:37 - Makefile is successfully checked
