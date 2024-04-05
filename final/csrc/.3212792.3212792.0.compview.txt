@@ -1,0 +1,5 @@
+{"vcs1":{"timestamp_begin":1712301375.749399730, "rt":1.30, "ut":0.05, "st":0.06}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1712301375.038131014}
+{"VCS_COMP_START_TIME": 1712301375.038131014}
+{"VCS_COMP_END_TIME": 1712301377.259950377}
+{"VCS_USER_OPTIONS": "-Mupdate -debug_access+all -sverilog -ntb_opts uvm-1.2 -f /home/harishkv/automation/Automated_regression/final/regs/src/filelist.f -f /home/harishkv/automation/Automated_regression/final/agents/apb/src/filelist.f -f /home/harishkv/automation/Automated_regression/final/sequence_lib/src/filelist.f -f /home/harishkv/automation/Automated_regression/final/env/src/filelist.f -f /home/harishkv/automation/Automated_regression/final/tb/src/filelist.f -f /home/harishkv/automation/Automated_regression/final/src/filelist.f -o gen_exe_apb_write_verify_test"}

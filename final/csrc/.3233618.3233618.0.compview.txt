@@ -1,0 +1,6 @@
+Command exited with non-zero status 255
+{"vcs1":{"timestamp_begin":1712307662.958164382, "rt":1.01, "ut":0.03, "st":0.06}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1712307662.020999600}
+{"VCS_COMP_START_TIME": 1712307662.020999600}
+{"VCS_COMP_END_TIME": 1712307664.051129425}
+{"VCS_USER_OPTIONS": "-debug_access+all -Mupdate -sverilog -ntb_opts uvm-1.2 -f /home/harishkv/automation/Automated_regression/final/regs/src/filelist.f -f /home/harishkv/automation/Automated_regression/final/agents/apb/src/filelist.f -f /home/harishkv/automation/Automated_regression/final/sequence_lib/src/filelist.f -f /home/harishkv/automation/Automated_regression/final/env/src/filelist.f -f /home/harishkv/automation/Automated_regression/final/tb/src/filelist.f -f /home/harishkv/automation/Automated_regression/final/src/filelist.f -o gen_exe_apb_base_test"}

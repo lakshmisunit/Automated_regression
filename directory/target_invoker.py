@@ -4,11 +4,11 @@ import sys
 
 class target_invoker:
     def get_targets():
-        jsonreader = JSONDataReader(sys.argv[1])
+        jsonreader = JSONDataReader(sys.argv[2])
         target_list = jsonreader.extract_values('target')
         return target_list
 
 #usage
 TI = target_invoker
 target_list = TI.get_targets()
-print(target_list)
+#print(target_list)

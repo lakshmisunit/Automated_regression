@@ -1,7 +1,10 @@
 ROOT := $(CURDIR)
 export ROOT := $(CURDIR)
 WORK_DIR := $(ROOT)/WORK_DIR
-SIM_PATH := $(shell which vcs)
+include directory/makefile
+
+SIM_PATH :=
+SIM_CMD :=
 
 compile_files := -f $(ROOT)/regs/src/filelist.f
 compile_files += -f $(ROOT)/agents/apb/src/filelist.f

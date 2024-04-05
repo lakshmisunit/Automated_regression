@@ -1,0 +1,4 @@
+{
+	"Simulator_CMD" : "vcs",
+	"compile_opts" : "-debus_access+all -sverilog -Mupdate -ntb_opts uvm-1.2"
+}

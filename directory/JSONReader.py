@@ -1,8 +1,12 @@
 import json
+
+#Reads the json file recursively until all the given keyword is found and outputs a list of it
+
 class JSONDataReader:
     def __init__(self, json_file_path):
         self.json_file_path = json_file_path;
         self.data_array = []
+        #safely opens the file and performs the necessary operation and closes the file
         with open(self.json_file_path, 'r') as file:
             self.data = json.load(file)
 

@@ -2,7 +2,7 @@ ROOT := $(CURDIR)
 export ROOT := $(CURDIR)
 WORK_DIR := $(ROOT)/WORK_DIR
 
-TOOL_NAME := 
+TOOL_NAME = 
 SIM_CMD := $(shell jq -r '.tools[] | select(.Simulator == "$(TOOL_NAME)") | .Simulator_CMD' settings.json)
 SIM_PATH = $(shell which ${SIM_CMD})
 
@@ -40,14 +40,19 @@ endif
 # constants
 vcs_compile_opts := $(compile_opts) -timescale=1ns/1ns -debug_access+r -ntb_opts uvm -sverilog -Mupdate 
 vcs_run_opts     := $(run_opts)
- 
+var := $(shell python3 update_path.py)
+
+target:
+	@echo ${var}
 # targets
-vcs: run_vcs
- 
+vcs: r_vcs
+r_vcs: vcs
+	
 check_simulator:
+	@echo ${var}
 	@echo ${TOOL_NAME}
 	@echo ${SIM_CMD}
-@if [ -z "$(SIM_PATH)" ]; then echo "${TOOL_NAME} does not exist"; else echo "${TOOL_NAME} exista at: $(SIM_PATH)"; fi
+	@if [ -z "$(SIM_PATH)" ]; then echo "${TOOL_NAME} does not exist"; else echo "${TOOL_NAME} exists at: $(SIM_PATH)"; fi
 
 prep_vcs:
 	mkdir -p $(WORK_DIR) && \
@@ -56,28 +61,27 @@ prep_vcs:
 
 LOG_DIR := log
 
-#all : gen_exe_apb_write_verify_error_test gen_exe_apb_write_verify_test gen_exe_apb_base_test gen_exe_apb_random_read_write_override_test
+all : gen_exe_apb_write_verify_error_test gen_exe_apb_write_verify_test gen_exe_apb_base_test gen_exe_apb_random_read_write_override_test
 
 
 
 gen_exe_apb_write_verify_error_test:
 	mkdir -p $(LOG_DIR) && \
-	vcs ${vcs_compile_opts} $(compile_files) -o gen_exe_apb_write_verify_error_test
+	${simulator} ${vcs_compile_opts} $(compile_files) -o gen_exe_apb_write_verify_error_test
 
 gen_exe_apb_write_verify_test:
-	vcs ${vcs_compile_opts} $(compile_files) -o gen_exe_apb_write_verify_test
+	${simulator} ${vcs_compile_opts} $(compile_files) -o gen_exe_apb_write_verify_test
 
 gen_exe_apb_base_test:
-	vcs ${vcs_compile_opts} $(compile_files) -o gen_exe_apb_base_test
+	${simulator} vcs ${vcs_compile_opts} $(compile_files) -o gen_exe_apb_base_test
 
 gen_exe_apb_random_read_write_override_test:
-	vcs ${vcs_compile_opts} $(compile_files) -o gen_exe_apb_random_read_write_override_test
+	${simulator} ${vcs_compile_opts} $(compile_files) -o gen_exe_apb_random_read_write_override_test
 	
 run_vcs:
 	${vcs_sim_exe_apb_write_verify_test}
 #./simv $(vcs_run_opts) \
 
-	
 run_regress_scr:
 	@while read -r line; do \
 		if [[ "$$line" == *".log"* ]]; then \
@@ -104,4 +108,6 @@ total_coverage:
  
 clean_vcs:
 	rm -rf $(WORK_DIR)/  
-	mkdir -p $(WORK_DIR) 
+	mkdir -p $(WORK_DIR)
+
+

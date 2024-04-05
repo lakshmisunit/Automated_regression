@@ -3,7 +3,7 @@
 	  {
 		  "Simulator" : "Synopsys VCS",
 		  "Simulator_CMD" : "vcs",
-		  "compile_opts" : "-debug_access+all -kdb -lca +v2k +plusarg_save +libext+.v+.V -sverilog -Mupdate -ntb_opts uvm-1.2",
+		  "compile_opts" : "-debug_access+all -sverilog -Mupdate -ntb_opts uvm-1.2",
 		  "vcs_path" : "./work/tools/synopsys/vcs/S-2021.09-SP2/bin/vcs",
 		  "run_opts" : 
 		              { 

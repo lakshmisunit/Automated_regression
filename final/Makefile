@@ -1,9 +1,8 @@
 ROOT := $(CURDIR)
 export ROOT := $(CURDIR)
 WORK_DIR := $(ROOT)/WORK_DIR
-
 TOOL_NAME = 
-Simulator_CMD := $(shell jq -r '.tools[] | select(.Simulator == "$(TOOL_NAME)") | .Simulator_CMD' settings.json)
+#Simulator_CMD := $(shell jq -r '.tools[] | select(.Simulator == "$(TOOL_NAME)") | .Simulator_CMD' settings.json)
 SIM_PATH = $(shell which ${SIM_CMD})
 
 
@@ -14,12 +13,10 @@ compile_files += -f $(ROOT)/env/src/filelist.f
 compile_files += -f $(ROOT)/tb/src/filelist.f
 compile_files += -f $(ROOT)/src/filelist.f
  
-compile_opts  :=
 run_opts      := +UVM_TESTNAME=$(TEST) +UVM_TIMEOUT=10000000000 +UVM_OBJECTION_TRACE
 top_module    := top
  
-ifdef GUI
-compile_opts  += -debug_access+r 
+ifdef GUI 
 run_opts      += -gui
 endif
  
@@ -40,7 +37,7 @@ endif
 # constants
 vcs_compile_opts := $(compile_opts) -timescale=1ns/1ns -debug_access+r -ntb_opts uvm -sverilog -Mupdate 
 vcs_run_opts     := $(run_opts)
-var := $(shell python3 update_path.py)
+
 
 target:
 	@echo ${var}
@@ -63,20 +60,20 @@ LOG_DIR := log
 
 all : gen_exe_apb_write_verify_error_test gen_exe_apb_write_verify_test gen_exe_apb_base_test gen_exe_apb_random_read_write_override_test
 
+build:
+	${Simulator_CMD} ${compile_opts} ${compile_files} -o build
 
+gen_exe_apb_write_verify_test :
+	${Simulator_CMD} ${compile_opts} $(compile_files) -o ${output_file}
 
 gen_exe_apb_write_verify_error_test:
-	mkdir -p $(LOG_DIR) && \
-	${Simulator_CMD} ${compile_opts} $(compile_files) -o {output_file}
-
-gen_exe_apb_write_verify_test:
-	${simulator} ${vcs_compile_opts} $(compile_files) -o gen_exe_apb_write_verify_test
+	${Simulator_CMD} ${compile_opts} $(compile_files) -o ${output_file}
 
 gen_exe_apb_base_test:
-	${simulator} vcs ${vcs_compile_opts} $(compile_files) -o gen_exe_apb_base_test
+	${Simulator_CMD} ${compile_opts} $(compile_files) -o ${output_file}
 
 gen_exe_apb_random_read_write_override_test:
-	${simulator} ${vcs_compile_opts} $(compile_files) -o gen_exe_apb_random_read_write_override_test
+	${Simulator_CMD} ${compile_opts} $(compile_files) -o ${output_file}
 	
 run_vcs:
 	${vcs_sim_exe_apb_write_verify_test}
@@ -107,6 +104,5 @@ total_coverage:
         -parallel
  
 clean_vcs:
-	rm -rf $(WORK_DIR)/  
-	mkdir -p $(WORK_DIR)
+	rm -rf ${output_file}.daidir
 

@@ -26,8 +26,7 @@ class simulator_setter:
             return self.select_tool('settings.json')
         selected_simulator = available_simulators[choice - 1]
         self.log_message(f"The selected simulator is: {selected_simulator}")
-        self.check_path(selected_simulator)
-        return selected_simulator
+        return self.check_path(selected_simulator)
 
     def check_output(self, cmd):
         # Check the output of a command
@@ -57,7 +56,7 @@ class simulator_setter:
 
         if f"/{simulator_cmd}" in simulator_path:
             self.log_message(f"The path for the {selected_tool} is found.\n")
-            return 0
+            return selected_tool
         else:
             self.log_message(f"The path for {selected_tool} is not present. Please select another tool\n")
             return self.select_tool('settings.json')
@@ -65,3 +64,4 @@ class simulator_setter:
 
 # class usage
 #Sim_set = simulator_setter('settings.json')
+#print(Sim_set.result)

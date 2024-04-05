@@ -1,0 +1,6 @@
+DPI_STUB_OBJS_OBJ0=./../gen_exe_apb_random_read_write_override_test.daidir/vc_hdrs.o
+DPI_STUB_OBJS_SRC0=./../gen_exe_apb_random_read_write_override_test.daidir/vc_hdrs.c
+DPI_STUB_OBJS += $(DPI_STUB_OBJS_OBJ0)
+$(DPI_STUB_OBJS_OBJ0): $(DPI_STUB_OBJS_SRC0)
+	@$(CC) -I/work/tools/synopsys/vcs/U-2023.03-1/include  -pipe -m32 -DVCSMX -DUVM_DPI_DO_TYPE_CHECK    -I/work/tools/synopsys/vcs/U-2023.03-1/include  -fPIC -c -o $(DPI_STUB_OBJS_OBJ0) $(DPI_STUB_OBJS_SRC0)
+	@strip -g $(DPI_STUB_OBJS_OBJ0)

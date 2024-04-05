@@ -101,11 +101,11 @@ class MakefileSanityChecker:
         return dependencies, line_numbers
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
+    if len(sys.argv) < 3:
         print("Usage: python script.py path_to_makefile")
         sys.exit(1)
    
-    makefile_path = sys.argv[1]
+    makefile_path = sys.argv[2]
    
     #checker = MakefileSanityChecker(makefile_path)
     #error_message = checker.message

@@ -1,4 +1,3 @@
-from tool_checker import simulator_setter
 from path_checker import path_checker
 from json_validator import JSONValidator
 from Makefile_validator import MakefileSanityChecker
@@ -7,7 +6,7 @@ from log_reader import read_latest_log
  
 class StatusValidator():
     def __init__(self):
-        self.tool_setup = simulator_setter('settings.json')
+        #self.tool_setup = simulator_setter('settings.json')
         #self.Json_path_exists = path_checker(sys.argv[1])
         #self.Makefile_path_exists = path_checker(sys.argv[2])
         self.Json_valid_status = self.json_status_validation()

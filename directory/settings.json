@@ -3,14 +3,12 @@
 	  {
 		  "Simulator" : "Synopsys VCS",
 		  "Simulator_CMD" : "vcs",
-		  "Simulator_Flags" : "-sverilog -Mupdate -full64 -RPP -debug_acess+all",
+		  "compile_opts" : "-debug_access+all -kdb -lca +v2k +plusarg_save +libext+.v+.V -sverilog -Mupdate -ntb_opts uvm-1.2",
 		  "vcs_path" : "./work/tools/synopsys/vcs/S-2021.09-SP2/bin/vcs",
-		  "compile_opts" :"", 
 		  "run_opts" : 
 		              { 
 										"UVM" : 
 										         { 
-															 "flag" : "-ntb_opts uvm-1.2", 
 															 "test_opts" : "+UVM_TESTNAME",
 															 "trace_opts" : "+UVM_OBJECTION_TRACE",
 															 "log_opts" : "-l",
@@ -19,7 +17,7 @@
 														 },
 										"OVM" :
 										         { 
-															 "test_opts" : "OVM_TESTNAME",
+															 "test_opts" : "+OVM_TESTNAME",
 														   "log_opts" : "-l"
 														 }
 									}
@@ -33,7 +31,6 @@
 		              {
 		                "UVM" : 
 										         { 
-															 "flag" : "-ntb_opts uvm-1.2", 
 															 "test_opts" : "+UVM_TESTNAME",
 															 "trace_opts" : "+UVM_OBJECTION_TRACE",
 															 "log_opts" : "-l",

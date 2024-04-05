@@ -1,4 +1,4 @@
-from JSONReader import JSONDataReader
+'''from JSONReader import JSONDataReader
 import subprocess
 
 print("Provide the path for Test_Data JSON file and Makefile")
@@ -27,4 +27,23 @@ else:
 #simulator_cmd = json_reader.read_data('Simulator_CMD')[selected_simulator]
 
 #print(f"Selected simulator: {selected_simulator}")
-#print(f"Simulator command: {simulator_cmd}")
+#print(f"Simulator command: {simulator_cmd}")'''
+
+
+
+import subprocess
+import json
+with open('settings.json', 'r') as f:
+    settings = json.load(f)
+
+Tool_name = "Synopsys VCS"
+
+command = f'jq -r \'.tools[] | select(.Simulator == "{Tool_name}") | .Simulator_CMD\' settings.json'
+compile_cmd = f'jq -r \'.tools[] | select(.Simulator == "{Tool_name}") | .compile_opts\' settings.json'
+
+compile_output = subprocess.check_output(compile_cmd, shell=True)
+compile_opt = compile_output.decode('utf-8')
+print(compile_opt)
+output_bytes = subprocess.check_output(command, shell=True)
+output = output_bytes.decode('utf-8')
+print(output)
