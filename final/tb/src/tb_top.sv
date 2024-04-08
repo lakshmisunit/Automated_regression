@@ -1,4 +1,3 @@
-
 `ifndef TB_TOP__SV
 `define TB_TOP__SV
 
@@ -27,18 +26,6 @@ initial begin
     pclk = 0;
     #5ns;
     forever #5ns pclk = !pclk;
-end
-
-initial begin
-     `ifdef DUMP_ENABLE         // Step 1 
-        `ifdef VCS                         
-           $vcdpluson(0);                 
-           $vcdplusmemon(top); 
-        `else                              
-           $dumpfile("testbench.dump"); 
-           $dumpvars(0,top);       
-        `endif                             
-      `endif                               
 end
 
 initial begin

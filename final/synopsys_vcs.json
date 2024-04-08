@@ -1,4 +1,17 @@
 {
 	"Simulator_CMD" : "vcs",
-	"compile_opts" : "-debus_access+all -sverilog -Mupdate -ntb_opts uvm-1.2"
+	"compile_opts" : "-debus_access+r -timescale=1ns/10ps -sverilog -Mupdate -ntb_opts uvm-1.2",
+	"run_opts" : { 
+		"UVM" : { 
+			"test_opts" : "+UVM_TESTNAME",
+			"trace_opts" : "+UVM_OBJECTION_TRACE",
+			"log_opts" : "-l",
+			"run_time_opts" : "-RI",
+			"dump_enable" : "+define+DUMP_ENABLE"
+		},
+		"OVM" : { 
+			"test_opts" : "+OVM_TESTNAME",
+			"log_opts" : "-l"
+		}
+	}
 }

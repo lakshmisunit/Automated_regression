@@ -61,10 +61,13 @@ LOG_DIR := log
 all : gen_exe_apb_write_verify_error_test gen_exe_apb_write_verify_test gen_exe_apb_base_test gen_exe_apb_random_read_write_override_test
 
 build:
-	${Simulator_CMD} ${compile_opts} ${compile_files} -o build
+	${Simulator_CMD} ${compile_opts} ${compile_files} -o build 
+	echo ${Simulator_CMD}
 
-gen_exe_apb_write_verify_test :
+gen_exe_apb_write_verify_test:
+	echo ${run_opts}
 	${Simulator_CMD} ${compile_opts} $(compile_files) -o ${output_file}
+	echo ${Simulator_CMD}
 
 gen_exe_apb_write_verify_error_test:
 	${Simulator_CMD} ${compile_opts} $(compile_files) -o ${output_file}

@@ -1,0 +1,48 @@
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-1; Runtime version U-2023.03-1;  Apr  8 14:43 2024
+----------------------------------------------------------------
+UVM-1.1d.Synopsys
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+VCD+ Writer U-2023.03-1 Copyright (c) 1991-2023 by Synopsys Inc.
+The design has assertions or cover properties.
+The assertion browser can be used to view them. Click on the assertion toolbar button or use the menu 'Window->Panes->Assertion' to open it.
+The file '/home/harishkv/automation/Automated_regression/final/inter.vpd' was opened successfully.
+UVM_INFO @ 0: reporter [RNTST] Running test apb_write_verify_test...
+UVM_INFO /work/tools/synopsys/vcs/U-2023.03-1/etc/uvm/base/uvm_phase.svh(1505) @ 0: reporter [PH/TRC/WAIT_PRED_OF_SUCC] Phase 'common.build' (id=194) *** No pred to succ other than myself, so ending phase ***
+UVM_INFO /work/tools/synopsys/vcs/U-2023.03-1/etc/uvm/base/uvm_phase.svh(1505) @ 0: reporter [PH/TRC/WAIT_PRED_OF_SUCC] Phase 'common.connect' (id=206) *** No pred to succ other than myself, so ending phase ***
+UVM_INFO /work/tools/synopsys/vcs/U-2023.03-1/etc/uvm/base/uvm_phase.svh(1505) @ 0: reporter [PH/TRC/WAIT_PRED_OF_SUCC] Phase 'common.end_of_elaboration' (id=218) *** No pred to succ other than myself, so ending phase ***
+UVM_INFO /work/tools/synopsys/vcs/U-2023.03-1/etc/uvm/base/uvm_phase.svh(1505) @ 0: reporter [PH/TRC/WAIT_PRED_OF_SUCC] Phase 'common.start_of_simulation' (id=230) *** No pred to succ other than myself, so ending phase ***
+UVM_INFO /work/tools/synopsys/vcs/U-2023.03-1/etc/uvm/seq/uvm_sequencer_base.svh(1384) @ 0: uvm_test_top.m_env.m_apb_agent.m_apb_seqr [PHASESEQ] No default phase sequence for phase 'run'
+UVM_INFO /home/harishkv/automation/Automated_regression/final/src/apb_write_verify_test.sv(27) @ 0: uvm_test_top [apb_write_verify_test] 
+-----------------------------------------
+Name   Type                  Size  Value 
+-----------------------------------------
+m_seq  apb_write_verify_seq  -     @750  
+  req  object                -     <null>
+  rsp  object                -     <null>
+-----------------------------------------
+
+UVM_INFO /home/harishkv/automation/Automated_regression/final/agents/apb/sequence_lib/src/apb_write_verify_seq.sv(32) @ 0: uvm_test_top.m_env.m_apb_agent.m_apb_seqr@@m_seq [apb_write_verify_seq] Address range from configuration: [0002:0080]
+UVM_INFO /work/tools/synopsys/vcs/U-2023.03-1/etc/uvm/seq/uvm_sequencer_base.svh(1384) @ 0: uvm_test_top.m_env.m_apb_agent.m_apb_seqr [PHASESEQ] No default phase sequence for phase 'pre_reset'
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      4.990 seconds;       Data structure size:   8.4Mb
+Mon Apr  8 14:44:25 2024

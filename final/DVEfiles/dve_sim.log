@@ -1,0 +1,65 @@
+14:43:12    16 -->                                                             [tcl] ucliGUI::connect -toolargs -ucligui -toolexe ./gen_exe_apb_write_verify_test +UVM_TESTNAME=apb_write_verify_test +UVM_VERBOSITY=UVM_DEBUG -pid 3564399 -toolin /tmp/vcs_20240408091305_3564398_harishkv..stdin -toolout /tmp/vcs_20240408091305_3564398_harishkv..stdout  
+14:43:12    17 -->                                                                 [tcl] set ucliGUI::state
+14:43:12    18 -->                                                                     [tcl] gui_update_simulator_buttons
+14:43:13    19 -->                                                                         [tcl] set ucliGUI::state
+14:43:13    20 -->                                                                             [tcl] ucliCore::getToolPID
+14:43:13    21 -->                                                                                 [tcl] synopsys::env hasTB
+14:43:13    22 -->                                                                                     [tcl] trigger_hier_stack_context_switch 0
+14:43:13    23 -->                                                                                         [tcl] synopsys::xml set_array_limit <data limit="50" />
+14:43:13    24 -->                                                                                             [tcl] synopsys::xml set_depth_limit <data limit="100" />
+14:43:13    25 --> ...  [tcl] synopsys::xml set_string_limit <data limit="1000" />
+14:43:13    26 --> ...      [tcl] synopsys::xml set_only_active_frame <data value="1" />
+14:43:13    27 --> ...          [tcl] synopsys::xml set_variable_frame_id <data value="1" />
+14:43:13    28 --> ...              [tcl] synUtils::setDVEInitPhase 1
+14:43:13    29 --> ...                  [tcl] gui_get_env SIMSETUP::SIMVPD
+14:43:13    30 --> ...                      [tcl] synopsys::dump -type VPD -file /home/harishkv/automation/Automated_regression/final/inter.vpd -locking
+14:43:13    31 --> ...                          [tcl] synopsys::dump -autoflush on -fid VPD0
+14:43:13    32 --> ...                              [tcl] set ::dve_fid VPD0
+14:43:13    33 --> ...                                  [tcl] synUtils::setDVEInitPhase 0
+14:43:13    34 --> ...                                      [tcl] ucliCore::getToolPID
+14:43:13    35 --> ...                                          [tcl] synUtils::sendTool -active _icl_setToolSocket /tmp/smlnpz0bkP9
+14:43:13    36 --> ...                                              [tcl] synUtils::sendTool -active {_icl_start_rpc -version "U-2023.03-1" -sync_file /tmp/vcs_dve_rpc.harishkv.3564399}
+14:43:13    37 --> ...                                                  [tcl] synUtils::sendTool -active {_icl_createSharedMemory /tmp/vcs_dve_general.harishkv.3564399}
+14:43:14    38 --> ...                                                      [tcl] dveMisc::vbusExpand uvm_pkg
+14:43:14    39 --> ...                                                          [tcl] config endofsim noexit
+14:43:14    40 --> ...                                                              [tcl] config onfail enable all
+14:43:14    41 --> ...                                                                  [tcl] config syscaddplainmembers
+14:43:14    42 --> ...                                                                      [tcl] config syscaddsourcenames
+14:43:14    43 --> ...                                                                          [tcl] config syscaddstructtypes
+14:43:14    44 --> ...                                                                              [tcl] synopsys::listing -disable
+14:43:18    45 --> ...                                                                                  [tcl] synopsys::dump -add {top.apb_slave_if} -aggregates  -fid VPD0
+14:43:28    46 --> ...                                                                                      [tcl] synopsys::dump -add {top.apb_slave_if.master_mp} -aggregates  -fid VPD0
+14:43:29    47 --> ...                                                                                          [tcl] synopsys::dump -add {top.apb_slave_if.slave_mp} -aggregates  -fid VPD0
+14:43:29    48 --> ...                                                                                              [tcl] synopsys::dump -add {top.apb_slave_if.slave_sync_mp} -aggregates  -fid VPD0
+14:43:29    49 --> ...                                                                                                  [tcl] synopsys::dump -add {top.apb_slave_if.master_sync_mp} -aggregates  -fid VPD0
+14:43:35    50 --> ...  [tcl] dveMisc::vbusExpand top.DUT.cycle_reporting
+14:43:43    51 --> ...      [tcl] dveMisc::vbusExpand top.DUT
+14:43:43    52 --> ...          [tcl] dveMisc::vbusExpand _vcs_unit__1277181542
+14:43:55    53 --> ...              [tcl] synopsys::dump -add {top.DUT.memArray} -aggregates  -fid VPD0
+14:44:05    54 --> ...                  [tcl] synopsys::dump -add {top.DUT.cycle_reporting.clocks } -aggregates  -fid VPD0
+14:44:09    55 --> ...                      [tcl] synopsys::run
+14:44:09    56 --> ...                          [tcl] set ucliGUI::state
+14:44:09    57 --> ...                              [tcl] gui_update_simulator_buttons
+14:44:09    58 --> ...                                  [tcl] set ucliGUI::state
+14:44:09    59 --> ...                                      [tcl] gui_update_simulator_buttons
+14:44:13    60 --> ...                                          [tcl] ucliCore::getToolPID
+14:44:13    61 --> ...                                              [tcl] ucliCore::stopTool -no_signal
+14:44:13    62 --> ...                                                  [tcl] set ucliGUI::state
+14:44:13    63 --> ...                                                      [tcl] set ucliGUI::state
+14:44:13    64 --> ...                                                          [tcl] catch {senv activeDomain} dveMisc::result 
+14:44:13    65 --> ...                                                              [tcl] set dveMisc::result
+14:44:13    66 --> ...                                                                  [tcl] gui_update_simulator_buttons
+14:44:13    67 --> ...                                                                      [tcl] synopsys::xml get_stop_data
+14:44:13    68 --> ...                                                                          [tcl] synopsys::xml {frames <data updateType="preserve" itemId="none" viewId="Stack.1" />}
+14:44:13    69 --> ...                                                                              [tcl] synopsys::xml {locals <data updateType="preserve" itemId="none" frame_id="frame(26:0:1)" viewId="Local.1" />}
+14:44:25    70 --> ...                                                                                  [tcl] if [catch {gui_sim_terminate}] {gui_sim_terminate -kill}
+14:44:25    71 --> ...                                                                                      [tcl] synopsys::finish
+14:44:25    72 --> ...                                                                                          [tcl] set ucliGUI::state
+14:44:25    73 --> ...                                                                                              [tcl] gui_update_simulator_buttons
+14:44:25    74 --> ...                                                                                                  [tcl] set ucliGUI::state
+14:44:25    75 --> ...  [tcl] catch {senv activeDomain} dveMisc::result 
+14:44:25    76 --> ...      [tcl] set dveMisc::result
+14:44:25    77 --> ...          [tcl] gui_update_simulator_buttons
+14:44:25    78 --> ...              [tcl] catch {senv activeDomain} dveMisc::result 
+14:44:25    79 --> ...                  [tcl] set dveMisc::result
+14:44:25    80 --> ...                      [tcl] ucli_exit

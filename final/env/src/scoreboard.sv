@@ -21,11 +21,6 @@ class chip_scoreboard extends uvm_scoreboard;
         if (t.tr_error) begin
             `uvm_error(get_type_name(), "ERROR:: PERROR raised by the slave")
             error_count += 1;
-            if(error_count) begin
-               `uvm_error(get_type_name(), "---------- SIMULATION FAILED ----------")
-            end else begin
-               `uvm_info(get_type_name(), "---------- SIMULATION PASSED ----------", UVM_NONE)
-            end
         end else begin
             if(t.tr_rw == apb_seq_item::TR_READ) compare_data(t); // Compare.
             else begin
@@ -40,7 +35,8 @@ class chip_scoreboard extends uvm_scoreboard;
     endfunction : write
 
     virtual function void compare_data(apb_seq_item this_tr);
-        `uvm_info(get_type_name(), $sformatf("Checking Read Value: ADDR: %h, PRDATA: %h, EXPECTED: %h", this_tr.tr_addr, this_tr.tr_rdata, RAM_MODEL[this_tr.tr_addr]), UVM_NONE)
+        `uvm_info(get_type_name(), $sformatf("Checking Read Value: ADDR: %h, PRDATA: %h, EXPECTED: %h",
+            this_tr.tr_addr, this_tr.tr_rdata, RAM_MODEL[this_tr.tr_addr]), UVM_NONE)
         if (this_tr.tr_rdata !== RAM_MODEL[this_tr.tr_addr]) begin
             `uvm_error(get_type_name(), "ERROR:: Data mismatch")
             error_count += 1;
@@ -50,11 +46,11 @@ class chip_scoreboard extends uvm_scoreboard;
     endfunction : compare_data
 
     function void report();
-        /*if(error_count) begin
+        if(error_count) begin
             `uvm_error(get_type_name(), "---------- SIMULATION FAILED ----------")
         end else begin
             `uvm_info(get_type_name(), "---------- SIMULATION PASSED ----------", UVM_NONE)
-        end*/
+        end
         `uvm_info(get_type_name(), $sformatf("Error_Count = %h", this.error_count), UVM_NONE)
     endfunction : report
 

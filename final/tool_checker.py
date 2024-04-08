@@ -7,7 +7,7 @@ class simulator_setter:
     def __init__(self, settings_file):
         # Initialize the class with the settings file
         self.file_path = settings_file
-        self.result = self.select_tool(self.file_path)
+        self.result = self.check_path(sys.argv[1])
 
     def select_tool(self, json_file):
         # Select a simulator tool from the JSON file
@@ -53,7 +53,6 @@ class simulator_setter:
         simulator_cmd = self.check_output(cmd1)
         cmd2 = f'which {simulator_cmd}'
         simulator_path = self.check_output(cmd2)
-
         if f"/{simulator_cmd}" in simulator_path:
             self.log_message(f"The path for the {selected_tool} is found.\n")
             return selected_tool
@@ -63,5 +62,5 @@ class simulator_setter:
 
 
 # class usage
-#Sim_set = simulator_setter('settings.json')
-#print(Sim_set.result)
+Sim_set = simulator_setter('settings.json')
+print(Sim_set.result)

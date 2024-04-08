@@ -10,7 +10,7 @@ class apb_reg_block extends uvm_reg_block;
     function new(string name = "apb_reg_block");
         super.new(
             .name(name),
-            .has_coverage(UVM_CVR_ALL)
+            .has_coverage(UVM_NO_COVERAGE)
         );
     endfunction : new
 

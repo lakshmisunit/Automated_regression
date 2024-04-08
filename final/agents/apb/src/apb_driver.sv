@@ -19,7 +19,6 @@ class apb_driver extends uvm_driver#(apb_seq_item);
 
   task run_phase(uvm_phase phase);
     apb_seq_item m_req;
-		int wdata;
 
     // Keep receiving the next transaction from the sequence until you run out.
     // Drive each transaction on the interface as per the protocol.
@@ -51,7 +50,7 @@ class apb_driver extends uvm_driver#(apb_seq_item);
       m_apb_vif.master_cb.psel    <= 1'b1;
       m_apb_vif.master_cb.penable <= 1'b0;
       m_apb_vif.master_cb.paddr   <= m_req.tr_addr;
-			if (m_req.tr_rw == apb_seq_item::TR_WRITE ) begin
+      if (m_req.tr_rw == apb_seq_item::TR_WRITE) begin
         m_apb_vif.master_cb.pwrite <= 1'b1;
         m_apb_vif.master_cb.pwdata <= m_req.tr_wdata;
       end else begin

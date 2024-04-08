@@ -1,0 +1,47 @@
+set ucliGUI::state
+set ucliGUI::state
+ucliCore::getToolPID
+synopsys::env hasTB
+trigger_hier_stack_context_switch 0
+synopsys::xml set_array_limit <data limit="50" />
+synopsys::xml set_depth_limit <data limit="100" />
+synopsys::xml set_string_limit <data limit="1000" />
+synopsys::xml set_only_active_frame <data value="1" />
+synopsys::xml set_variable_frame_id <data value="1" />
+synUtils::setDVEInitPhase 1
+synopsys::dump -type VPD -file /home/harishkv/automation/Automated_regression/final/inter.vpd -locking
+synopsys::dump -autoflush on -fid VPD0
+set ::dve_fid VPD0
+synUtils::setDVEInitPhase 0
+ucliCore::getToolPID
+synUtils::sendTool -active _icl_setToolSocket /tmp/smlnpz0bkP9
+synUtils::sendTool -active {_icl_start_rpc -version "U-2023.03-1" -sync_file /tmp/vcs_dve_rpc.harishkv.3564399}
+synUtils::sendTool -active {_icl_createSharedMemory /tmp/vcs_dve_general.harishkv.3564399}
+config endofsim noexit
+config onfail enable all
+config syscaddplainmembers
+config syscaddsourcenames
+config syscaddstructtypes
+synopsys::listing -disable
+synopsys::dump -add {top.apb_slave_if} -aggregates  -fid VPD0
+synopsys::dump -add {top.apb_slave_if.master_mp} -aggregates  -fid VPD0
+synopsys::dump -add {top.apb_slave_if.slave_mp} -aggregates  -fid VPD0
+synopsys::dump -add {top.apb_slave_if.slave_sync_mp} -aggregates  -fid VPD0
+synopsys::dump -add {top.apb_slave_if.master_sync_mp} -aggregates  -fid VPD0
+synopsys::dump -add {top.DUT.memArray} -aggregates  -fid VPD0
+synopsys::dump -add {top.DUT.cycle_reporting.clocks } -aggregates  -fid VPD0
+synopsys::run
+set ucliGUI::state
+set ucliGUI::state
+ucliCore::getToolPID
+ucliCore::stopTool -no_signal
+set ucliGUI::state
+set ucliGUI::state
+synopsys::xml get_stop_data
+synopsys::xml {frames <data updateType="preserve" itemId="none" viewId="Stack.1" />}
+synopsys::xml {locals <data updateType="preserve" itemId="none" frame_id="frame(26:0:1)" viewId="Local.1" />}
+if [catch {gui_sim_terminate}] {gui_sim_terminate -kill}
+synopsys::finish
+set ucliGUI::state
+set ucliGUI::state
+ucli_exit

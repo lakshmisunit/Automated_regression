@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1712567035.514161328, "rt":10.23, "ut":9.86, "st":0.26}}
+{"vcselab":{"timestamp_begin":1712567045.809563572, "rt":0.01, "ut":0.00, "st":0.00}}
+Command exited with non-zero status 2
+{"link":{"timestamp_begin":1712567045.860249919, "rt":0.00, "ut":0.00, "st":0.00}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1712567034.951176688}
+{"VCS_COMP_START_TIME": 1712567034.951176688}
+{"VCS_COMP_END_TIME": 1712567045.965446475}
+{"VCS_USER_OPTIONS": "-debug_access+all -sverilog -ntb_opts uvm -f /home/harishkv/automation/Automated_regression/final/regs/src/filelist.f -f /home/harishkv/automation/Automated_regression/final/agents/apb/src/filelist.f -f /home/harishkv/automation/Automated_regression/final/sequence_lib/src/filelist.f -f /home/harishkv/automation/Automated_regression/final/env/src/filelist.f -f /home/harishkv/automation/Automated_regression/final/tb/src/filelist.f -f /home/harishkv/automation/Automated_regression/final/src/filelist.f -o"}
+{"vcs1": {"peak_mem": 290940}}

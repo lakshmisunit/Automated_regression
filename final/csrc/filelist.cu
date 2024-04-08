@@ -4,12 +4,12 @@ ifeq ($(LDVERSION), 0)
 endif
 
 ARCHIVE_OBJS=
-ARCHIVE_OBJS += _3274128_archive_1.so
-_3274128_archive_1.so : archive.43/_3274128_archive_1.a
+ARCHIVE_OBJS += _3600945_archive_1.so
+_3600945_archive_1.so : archive.10/_3600945_archive_1.a
 	@$(AR) -s $<
-	@$(PIC_LD) -shared  -z notext -m elf_i386  -Bsymbolic $(LD_NORELAX_FLAG)  -o .//../gen_exe_apb_random_read_write_override_test.daidir//_3274128_archive_1.so --whole-archive $< --no-whole-archive
+	@$(PIC_LD) -shared  -z notext -m elf_i386  -Bsymbolic $(LD_NORELAX_FLAG)  -o .//../gen_exe_apb_random_read_write_override_test.daidir//_3600945_archive_1.so --whole-archive $< --no-whole-archive
 	@rm -f $@
-	@ln -sf .//../gen_exe_apb_random_read_write_override_test.daidir//_3274128_archive_1.so $@
+	@ln -sf .//../gen_exe_apb_random_read_write_override_test.daidir//_3600945_archive_1.so $@
 
 
 

@@ -11,11 +11,12 @@ class apb_write_verify_test extends apb_base_test;
     endfunction: new
 
     function void build_phase(uvm_phase phase);
-        super.build_phase(phase);
+        //super.build_phase(phase);
     endfunction: build_phase
 
     virtual task run_phase(uvm_phase phase);
         apb_write_verify_seq m_seq;
+
         // Raise objection so the test will not end. Dropping it will end the test.
         phase.raise_objection(.obj(this));
         m_seq = apb_write_verify_seq::type_id::create(.name("m_seq"));

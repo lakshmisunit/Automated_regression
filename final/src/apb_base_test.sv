@@ -35,7 +35,6 @@ class apb_base_test extends uvm_test;
     endfunction: build_phase
 
     virtual task run_phase(uvm_phase phase);
-
         `uvm_fatal(get_type_name(), "No run phase defined for uvm_test.");
     endtask : run_phase
 endclass: apb_base_test

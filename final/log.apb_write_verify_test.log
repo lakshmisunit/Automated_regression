@@ -1,0 +1,41 @@
+Command: /home/harishkv/automation/Automated_regression/final/./gen_exe_apb_write_verify_test +UVM_TESTNAME=apb_write_verify_test -l log.apb_write_verify_test.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-1; Runtime version U-2023.03-1;  Apr  8 13:13 2024
+UVM_INFO /work/tools/synopsys/vcs/U-2023.03-1/etc/uvm-1.2/base/uvm_root.svh(402) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2.Synopsys
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test apb_write_verify_test...
+UVM_INFO /home/harishkv/automation/Automated_regression/final/src/apb_write_verify_test.sv(26) @ 0: uvm_test_top [apb_write_verify_test] 
+-----------------------------------------
+Name   Type                  Size  Value 
+-----------------------------------------
+m_seq  apb_write_verify_seq  -     @666  
+  req  object                -     <null>
+  rsp  object                -     <null>
+-----------------------------------------
+
+Received SIGHUP (signal 1), exiting.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:     17.670 seconds;       Data structure size:   0.2Mb
+Mon Apr  8 15:44:03 2024
