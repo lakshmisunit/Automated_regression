@@ -54,10 +54,10 @@ class simulator_setter:
         cmd2 = f'which {simulator_cmd}'
         simulator_path = self.check_output(cmd2)
         if f"/{simulator_cmd}" in simulator_path:
-            self.log_message(f"The path for the {selected_tool} is found.\n")
+            self.log_message(f"path for the {selected_tool} is found.\n")
             return selected_tool
         else:
-            self.log_message(f"The path for {selected_tool} is not present. Please select another tool\n")
+            self.log_message(f"path for {selected_tool} is not found. Please include another tool\n")
             return self.select_tool('settings.json')
 
 
