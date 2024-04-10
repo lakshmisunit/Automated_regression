@@ -1,0 +1,4 @@
+./gen_exe_apb_write_verify_test +UVM_TESTNAME=apb_write_verify_test -l log/2024-04-10_16:15:29_apb_write_verify_test.log 
+./gen_exe_apb_base_test +UVM_TESTNAME=apb_base_test -l log/2024-04-10_16:15:29_apb_base_test.log 
+./gen_exe_apb_write_verify_error_test +UVM_TESTNAME=apb_write_verify_error_test -l log/2024-04-10_16:15:29_apb_write_verify_error_test.log 
+./gen_exe_apb_random_read_write_override_test +UVM_TESTNAME=apb_random_read_write_override_test -l log/2024-04-10_16:15:29_apb_random_read_write_override_test.log 

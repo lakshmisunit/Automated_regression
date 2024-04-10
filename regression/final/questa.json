@@ -1,0 +1,18 @@
+{
+	"Simulator_CMD" : "qrun",
+	"icarus_path" : " ",
+	"compile_opts" : "-autoorder -batch -vcom.options -end -mfcu -vsim options -voptargs=+acc=npr",
+	"run_opts" : {
+		"UVM" : {
+			"test_opts" : "+UVM_TESTNAME",
+			"trace_opts" : "+UVM_OBJECTION_TRACE",
+			"log_opts" : "-l",
+			"run_time_opts" : "-RI",
+			"dump_enable" : "+define+DUMP_ENABLE"
+		},
+		"OVM" : { 
+			"test_opts" : "OVM_TESTNAME",
+			"log_opts" : "-l"
+		}
+	}
+}
