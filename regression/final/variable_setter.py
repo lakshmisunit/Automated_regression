@@ -1,17 +1,11 @@
 import json
 import sys, os
 from datetime import datetime
-import JSONSettingsInvoker
-#from variable_extracter import extract_variables
-#from simulator_checker import SimulatorChecker
 
 class VariableSetter:
-    def __init__(self):
-        #self.variable_list = extract_variables(sys.argv[2])
+    def __init__(self, json_file):
         self.language = sys.argv[4]
-        #self.set_simulator = SimulatorChecker()
-        #self.Tool_name = self.set_simulator.result
-        self.json_file = JSONSettingsInvoker.get_file(sys.argv[1])
+        self.json_file = json_file
         self.Simulator_CMD = self.set_variable(self.json_file, 'Simulator_CMD')
         self.compile_opts = self.set_variable(self.json_file, 'compile_opts')
         self.test_opts = self.extract_run_opts(self.language, self.json_file, 'run_opts', 'test_opts')
@@ -32,5 +26,5 @@ class VariableSetter:
         return output
 
 #class usage 
-#extracter = variable_setter()
+#extracter = VariableSetter()
 #print(extracter.test_opts)

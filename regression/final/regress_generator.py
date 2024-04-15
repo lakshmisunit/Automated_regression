@@ -1,17 +1,27 @@
+import JSONSettingsInvoker 
 from target_builder import Target_builder
 from variable_setter import VariableSetter
 import json, sys, subprocess
 from datetime import datetime
+
 class RegressGenerator:
     def __init__(self, target_json):
-        self.TB = Target_builder()
+        #get the valid settings file for included simulator
+        self.json_file = JSONSettingsInvoker.get_file(sys.argv[1])
+
+        #Build the correct targets by invoking each one from the given testdata file
+        self.TB = Target_builder(self.json_file)
         self.targets_built = self.TB.build
         print(f"*****Targets successfully built are: {self.targets_built}*****")
         self.output_file = 'regress.scr'
-        self.setter = VariableSetter()
+
+        #set the varaibles of makefile by reading and extracting with key-value_pair
+        self.setter = VariableSetter(self.json_file)
         self.test_opts = self.setter.test_opts
         self.log_opts = self.setter.log_opts
         self.trace_opts = self.setter.trace_opts
+
+        #Generates the regress file with commands to run each testcases
         self.regress_file = self.generate_regress(self.targets_built, self.test_opts, self.log_opts, self.trace_opts)
 
     def generate_regress(self, built_targets, test_opts, log_opts, trace_opts):

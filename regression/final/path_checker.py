@@ -19,7 +19,7 @@ class path_checker:
             self.append_to_log(message)
             print(message)
             return 1
-            #sys.exit(1)
+            sys.exit(1)
         else:
             message = f"{file} exists in the given path"
             self.append_to_log(message)

@@ -1,8 +1,6 @@
 import re
 import sys
 
-#reads the makefile and extracts only the variables and outputs the same in the list
-
 def extract_variables(makefile_path):
     variables = []
     with open(makefile_path, 'r') as makefile:
@@ -13,5 +11,5 @@ def extract_variables(makefile_path):
                 variables.append(variable_name)
     return variables
 
-variables = extract_variables(sys.argv[3])
+    #variables = extract_variables(sys.argv[3])
 #print(variables)

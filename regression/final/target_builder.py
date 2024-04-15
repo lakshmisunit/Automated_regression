@@ -3,14 +3,13 @@ import os
 from target_checker import target_checker
 from datetime import datetime
 from variable_setter import VariableSetter
-from simulator_checker import SimulatorChecker
 
 class Target_builder:
-    def __init__(self):
+    def __init__(self, json_file):
+        self.json_file = json_file
         TC = target_checker()
         self.found_targets = TC.found_targets
-        self.setter = VariableSetter()
-        self.tool_checker = SimulatorChecker()
+        self.setter = VariableSetter(self.json_file)
         self.Simulator_CMD = self.setter.Simulator_CMD
         self.compile_opts = self.setter.compile_opts
         self.build = self.build_targets(self.found_targets, self.Simulator_CMD, self.compile_opts)
@@ -29,6 +28,8 @@ class Target_builder:
                 time_stamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                 f.write(f"{time_stamp} - {message}\n")
         return built_targets
+
+
 
 #class usage
 #TB = Target_builder()

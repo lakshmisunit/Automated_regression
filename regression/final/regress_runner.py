@@ -10,8 +10,8 @@ class RegressRunner:
         with open(file, 'r') as f:
             for line in f:
                 subprocess.run(line, shell=True)
+#class usage
 if(len(sys.argv) < 5):
     print("Usage error: python3 [top_module_script] [Simulator_Include] [json_file] [makefile] [language]")
 else:
-    #print(len(sys.argv))
     runner = RegressRunner('regress.scr')

@@ -6,9 +6,6 @@ from log_reader import read_latest_log
  
 class StatusValidator():
     def __init__(self):
-        #self.tool_setup = simulator_setter('settings.json')
-        self.Json_path_exists = path_checker(sys.argv[2])
-        self.Makefile_path_exists = path_checker(sys.argv[3])
         self.Json_valid_status = self.json_status_validation()
         self.Makefile_valid_status = self.makefile_status_validation()
  
