@@ -2,13 +2,15 @@ import subprocess
 import os 
 from target_checker import target_checker
 from datetime import datetime
-from variable_setter import variable_setter
+from variable_setter import VariableSetter
+from simulator_checker import SimulatorChecker
 
 class Target_builder:
     def __init__(self):
         TC = target_checker()
         self.found_targets = TC.found_targets
-        self.setter = variable_setter()
+        self.setter = VariableSetter()
+        self.tool_checker = SimulatorChecker()
         self.Simulator_CMD = self.setter.Simulator_CMD
         self.compile_opts = self.setter.compile_opts
         self.build = self.build_targets(self.found_targets, self.Simulator_CMD, self.compile_opts)

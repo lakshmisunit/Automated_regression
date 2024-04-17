@@ -13,5 +13,5 @@ def extract_variables(makefile_path):
                 variables.append(variable_name)
     return variables
 
-variables = extract_variables(sys.argv[1])
+variables = extract_variables(sys.argv[3])
 #print(variables)

@@ -22,11 +22,11 @@ class Target_identifier:
         target_list = [x for x in read_make if x not in variables_list]
         return target_list
         
-            
-#T_identifier = Target_identifier()
-#identified_targets = T_identifier.targets
-#if identified_targets != None:
-#    print(identified_targets)
-#else:
-#    print(identified_targets)
-
+#class usage      
+'''T_identifier = Target_identifier()
+identified_targets = T_identifier.targets
+if identified_targets != None:
+    print(identified_targets)
+else:
+    print(identified_targets)
+'''

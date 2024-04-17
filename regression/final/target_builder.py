@@ -1,5 +1,6 @@
 import subprocess
 import os 
+from simulator_checker import SimulatorChecker
 from target_checker import target_checker
 from datetime import datetime
 from variable_setter import VariableSetter
@@ -7,8 +8,9 @@ from variable_setter import VariableSetter
 class Target_builder:
     def __init__(self, json_file):
         self.json_file = json_file
-        TC = target_checker()
-        self.found_targets = TC.found_targets
+        self.simulator = SimulatorChecker(self.json_file)
+        self.TC = target_checker()
+        self.found_targets = self.TC.found_targets
         self.setter = VariableSetter(self.json_file)
         self.Simulator_CMD = self.setter.Simulator_CMD
         self.compile_opts = self.setter.compile_opts

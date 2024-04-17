@@ -8,7 +8,7 @@ class JSON_target_invoker:
 
     def get_targets(self, json_status, makefile_status):
         if(json_status == 0) and (makefile_status == 0):
-            jsonreader = JSONDataReader(sys.argv[1])
+            jsonreader = JSONDataReader(sys.argv[2])
             target_list = jsonreader.extract_values('target')
             return target_list
         else:

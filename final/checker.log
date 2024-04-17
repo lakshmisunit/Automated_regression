@@ -378,3 +378,115 @@
  ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
 2024-04-08 16:58:57 - The founded targets are:
  ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 09:27:10: Path for vcs is found.
+2024-04-10 09:32:02: Path for qrun is not found. Please include the correct path in settings.
+2024-04-10 09:33:13: Path for qrun is not found. Please include the correct path or available simulator
+2024-04-10 09:33:34: Path for vcs is found.
+2024-04-10 09:40:17: Path for vcs is found.
+2024-04-10 09:41:41: Settings file not found for VCS_Inclde.
+2024-04-10 09:42:28: Settings file not found for VCS_Inclde.
+2024-04-10 09:50:59: Settings file not found for VCS_Inclde.
+2024-04-10 09:51:16: Settings file not found for VCS_Inclde.
+2024-04-10 09:51:58: Settings file not found for VCS_Inclde.
+2024-04-10 09:52:15: Settings file not found for VCS_Inclde.
+2024-04-10 09:52:38: Settings file not found for VCS_Inclde.
+2024-04-10 09:55:26: Settings file not found for VCS_Inclde.
+2024-04-10 09:56:19: Path for vcs is found.
+2024-04-10 09:56:31: Path for vcs is found.
+2024-04-10 09:59:16: Path for vcs is found.
+2024-04-10 10:02:07: Path for qrun is not found. Please include the correct path or available simulator
+2024-04-10 10:38:42 - The founded targets are:
+ []
+2024-04-10 10:40:19 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 10:41:06 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 10:41:45 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 10:44:02 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 10:45:14 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 10:47:52 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 10:50:03 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 10:50:15 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 10:51:30 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 10:51:55 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 10:53:05 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 10:54:14 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 10:55:18 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 10:59:49 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 11:00:42 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 11:01:17 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 11:01:25 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 11:02:03 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 11:02:22 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 11:02:39 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 11:03:02 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 11:04:12 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 11:05:36 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 11:06:26 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 11:38:21 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 12:13:26 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 12:19:07 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 12:20:59 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 13:10:15 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 13:10:59 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 13:58:00 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 13:58:00: Path for vcs is found.
+2024-04-10 13:58:11 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 13:58:11: Path for vcs is found.
+2024-04-10 14:01:00 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 14:01:10 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 14:01:10: Path for qrun is not found. Please include the correct path or available simulator
+2024-04-10 14:01:47 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 14:02:46 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 14:02:53 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 14:10:36 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 14:11:09 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 14:11:33 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 14:11:47 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 14:12:35 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 14:12:58 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 14:13:11 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']
+2024-04-10 14:29:45 - The founded targets are:
+ ['gen_exe_apb_write_verify_test', 'gen_exe_apb_base_test', 'gen_exe_apb_write_verify_error_test', 'gen_exe_apb_random_read_write_override_test']

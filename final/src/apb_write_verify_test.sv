@@ -11,7 +11,7 @@ class apb_write_verify_test extends apb_base_test;
     endfunction: new
 
     function void build_phase(uvm_phase phase);
-        //super.build_phase(phase);
+        super.build_phase(phase);
     endfunction: build_phase
 
     virtual task run_phase(uvm_phase phase);

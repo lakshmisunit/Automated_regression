@@ -32,7 +32,7 @@ class SimulatorChecker:
         stdout, stderr = process.communicate()
         return stdout.decode('utf-8') if stdout else stderr.decode('utf-8')
 
-    def check_path(self, json_file, included_tool):
+    def check_path(self, included_tool, json_file):
         """Check if the specified simulator path exists."""
         if not json_file:
             # Exit if settings file is not found
@@ -48,7 +48,7 @@ class SimulatorChecker:
         if f"/{sim_cmd}" in sim_path:
             # Log message if path is found
             self.log_message(f'Path for {sim_cmd} is found.')
-            return 0
+            return included_tool
         else:
             # Log message if path is not found
             self.log_message(f"Path for {sim_cmd} is not found. Please include the correct path or available simulator")

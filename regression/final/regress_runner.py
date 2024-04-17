@@ -1,5 +1,6 @@
 import subprocess, sys
 from regress_generator import RegressGenerator
+
 class RegressRunner:
     def __init__(self, regress_file):
         self.generator = RegressGenerator(sys.argv[2])

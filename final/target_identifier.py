@@ -9,7 +9,7 @@ class Target_identifier:
         self.JSON_targets = self.target_invoke.targets
         self.check = 0;
         if(self.JSON_targets == None):
-            print(f"No targets are inovked from {sys.argv[1]}")
+            print(f"No targets are invoked from {sys.argv[2]}")
             self.check = 1;
             sys.exit(1)
         else:
@@ -17,8 +17,8 @@ class Target_identifier:
 
     def extract_targets(self):
         make = Makefile()
-        read_make = make.read(sys.argv[2])
-        variables_list = extract_variables(sys.argv[2])
+        read_make = make.read(sys.argv[3])
+        variables_list = extract_variables(sys.argv[3])
         target_list = [x for x in read_make if x not in variables_list]
         return target_list
         

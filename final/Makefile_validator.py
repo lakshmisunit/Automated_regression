@@ -7,8 +7,15 @@ import sys
 class MakefileSanityChecker:
     def __init__(self, makefile_path):
         self.makefile_path = makefile_path
+        self.check_existence(self.makefile_path)        
         self.dependencies, self.line_numbers = self.parse_makefile()
         self.message = self.check_makefile_errors()
+
+    def check_existence(self, makefile_path):
+        if not os.path.exists(makefile_path):
+            self.append_to_log(f"{makefile_path} not found")
+            print(f"{makefile_path} not found")
+            sys.exit(1)
 
     def append_to_log(self, message):
         with open('checkers.log', 'a+') as f:
@@ -17,9 +24,6 @@ class MakefileSanityChecker:
             f.write(f"{timestamp} - {message}\n")
 
     def check_makefile_errors(self):
-        if not os.path.exists(self.makefile_path):
-            self.append_to_log("Makefile not found")
-            return "Makefile not found"
 
         try:
             output = subprocess.check_output(['make', '-n', '-f', self.makefile_path], stderr=subprocess.STDOUT).decode()
@@ -34,7 +38,6 @@ class MakefileSanityChecker:
             self.append_to_log(message)
             print(message)
             return f"{message}"
-        return 1
 
     def parse_makefile_errors(self, output):
         if "missing separator" in output:
