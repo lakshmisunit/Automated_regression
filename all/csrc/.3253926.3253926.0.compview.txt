@@ -1,9 +1,0 @@
-{"vcs1":{"timestamp_begin":1712308685.303675335, "rt":10.62, "ut":10.21, "st":0.27}}
-{"vcselab":{"timestamp_begin":1712308695.994748066, "rt":0.30, "ut":0.21, "st":0.08}}
-{"link":{"timestamp_begin":1712308696.343191543, "rt":0.57, "ut":0.40, "st":0.17}}
-{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1712308684.745500504}
-{"VCS_COMP_START_TIME": 1712308684.745500504}
-{"VCS_COMP_END_TIME": 1712308697.013637494}
-{"VCS_USER_OPTIONS": "-debug_access+all -Mupdate -sverilog -ntb_opts uvm-1.2 -f /home/harishkv/automation/Automated_regression/final/regs/src/filelist.f -f /home/harishkv/automation/Automated_regression/final/agents/apb/src/filelist.f -f /home/harishkv/automation/Automated_regression/final/sequence_lib/src/filelist.f -f /home/harishkv/automation/Automated_regression/final/env/src/filelist.f -f /home/harishkv/automation/Automated_regression/final/tb/src/filelist.f -f /home/harishkv/automation/Automated_regression/final/src/filelist.f -o gen_exe_apb_write_verify_error_test"}
-{"vcs1": {"peak_mem": 295436}}
-{"vcselab": {"peak_mem": 147740}}
