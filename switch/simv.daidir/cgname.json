@@ -1,0 +1,38 @@
+{
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        1
+    ],
+    "ingress_buffer": [
+        "ingress_buffer",
+        "kfdJu",
+        "module",
+        2
+    ],
+    "switch": [
+        "switch",
+        "Kv9Tb",
+        "module",
+        3
+    ],
+    "network_switch_0000": [
+        "network_switch_0000",
+        "IwgnT",
+        "module",
+        4
+    ],
+    "tb_network_switch": [
+        "tb_network_switch",
+        "Zt69I",
+        "module",
+        5
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        6
+    ]
+}

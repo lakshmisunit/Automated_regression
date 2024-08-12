@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1723463483.164241553, "rt":0.46, "ut":0.27, "st":0.09}}
+{"vcselab":{"timestamp_begin":1723463483.719402992, "rt":0.32, "ut":0.22, "st":0.08}}
+{"link":{"timestamp_begin":1723463484.094607889, "rt":0.25, "ut":0.16, "st":0.09}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1723463482.686551329}
+{"VCS_COMP_START_TIME": 1723463482.686551329}
+{"VCS_COMP_END_TIME": 1723463484.460782828}
+{"VCS_USER_OPTIONS": "-sverilog ingress_buffer.sv egress_buffer.sv memory.sv switch.sv Mac_table.sv queue.sv network_switch.sv network_switch_tb.sv -debug_access+all"}
+{"vcs1": {"peak_mem": 248868}}
+{"vcselab": {"peak_mem": 147728}}
