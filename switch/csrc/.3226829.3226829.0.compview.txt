@@ -1,7 +1,0 @@
-Command exited with non-zero status 255
-{"vcs1":{"timestamp_begin":1723464827.877346524, "rt":0.14, "ut":0.07, "st":0.04}}
-{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1723464827.421778755}
-{"VCS_COMP_START_TIME": 1723464827.421778755}
-{"VCS_COMP_END_TIME": 1723464828.082256972}
-{"VCS_USER_OPTIONS": "-sverilog ingress_buffer.sv egress_buffer.sv switch.sv Mac_table.sv memory.sv queue.sv network_switch.sv network_switch_tb.sv -debug_access+all"}
-{"vcs1": {"peak_mem": 235136}}

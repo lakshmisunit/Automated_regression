@@ -1,8 +1,0 @@
-/home/harishkv/Switch_Modelling/Verification-of-FIFO-using-SystemVerilog/switch/Mac_table.sv
-/home/harishkv/Switch_Modelling/Verification-of-FIFO-using-SystemVerilog/switch/egress_buffer.sv
-/home/harishkv/Switch_Modelling/Verification-of-FIFO-using-SystemVerilog/switch/ingress_buffer.sv
-/home/harishkv/Switch_Modelling/Verification-of-FIFO-using-SystemVerilog/switch/memory.sv
-/home/harishkv/Switch_Modelling/Verification-of-FIFO-using-SystemVerilog/switch/network_switch.sv
-/home/harishkv/Switch_Modelling/Verification-of-FIFO-using-SystemVerilog/switch/network_switch_tb.sv
-/home/harishkv/Switch_Modelling/Verification-of-FIFO-using-SystemVerilog/switch/queue.sv
-/home/harishkv/Switch_Modelling/Verification-of-FIFO-using-SystemVerilog/switch/switch.sv
